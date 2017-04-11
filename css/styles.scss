@@ -13,6 +13,11 @@
 	display: flex;
 }
 
+.text-center {
+	text-align: center;
+}
+
+
 
 /* HEADER */
 
@@ -34,3 +39,14 @@ header {
 		}
 	}
 }
+
+
+/* FOOTER */
+
+#sub-footer {	
+	div {
+		flex-grow: 1;
+	}
+}
+
+
