@@ -1,6 +1,36 @@
 ---
 ---
 
+/* for prototyping */
 * {
 	border: red solid 1px !important;
+}
+
+
+/* REUSABLE CLASSES */
+
+.flex-container {
+	display: flex;
+}
+
+
+/* HEADER */
+
+header {
+
+	&.flex-container {
+		justify-content: space-around;
+	}
+	
+	.logo {
+		flex-grow: 1;
+	}
+
+	nav {
+		flex-grow: 2;
+
+		&.flex-container {
+			justify-content: space-around;
+		}
+	}
 }
