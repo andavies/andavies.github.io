@@ -47,11 +47,6 @@ header {
 
 /* FOOTER */
 
-#sub-footer {	
-	div {
-		flex-grow: 1;
-	}
-}
 
 
 /* MAIN TITLE SECTION */
@@ -67,14 +62,6 @@ header {
 .grid {
 	flex-grow: 5;
 	flex-direction: column;
-}
-
-.row {
-	flex-grow: 1;
-
-	div {
-		flex-grow: 1;
-	}
 }
 
 
