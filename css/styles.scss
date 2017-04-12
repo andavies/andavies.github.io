@@ -50,3 +50,26 @@ header {
 }
 
 
+/* MAIN TITLE SECTION */
+/* none */
+
+
+/* FEATURED WORK */
+
+.sidebar-selector {
+	flex-grow: 1;
+}
+
+.grid {
+	flex-grow: 5;
+	flex-direction: column;
+}
+
+.row {
+	flex-grow: 1;
+
+	div {
+		flex-grow: 1;
+	}
+}
+
