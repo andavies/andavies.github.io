@@ -13,6 +13,10 @@
 	display: flex;
 }
 
+.equal-width-column {
+	flex-grow: 1;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -80,4 +84,7 @@ header {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
+
+/* ABOUT ME */
 
