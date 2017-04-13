@@ -75,3 +75,13 @@ header {
 
 /* ABOUT ME */
 
+
+/* PROJECTS PAGE */
+
+.project-grid, .tag-wrapper {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+

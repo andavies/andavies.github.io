@@ -3,15 +3,24 @@ title: Projects | Andy Davies
 layout: master
 ---
 
-{% for project in site.projects %}
-	<div>
+<h2 class="text-center">Projects</h2>
 
-		<h2>{{ project.title }}</h2>
-		<p>{{ project.description }}</p>
+<div class="flex-container project-grid text-center">
 
-		{% for tag in project.tags %}
-			<p>{{ tag }}</p>
-		{% endfor %}
+	{% for project in site.projects %}
+		<div>
 
-	</div>
-{% endfor %}
+			<h3>{{ project.title }}</h3>
+			<img src="https://placehold.it/350x200">
+			<p>{{ project.description }}</p>
+
+			<div class="flex-container tag-wrapper">
+				{% for tag in project.tags %}
+					<div>{{ tag }}</div>
+				{% endfor %}
+			</div>			
+
+		</div>
+	{% endfor %}
+
+</div>
