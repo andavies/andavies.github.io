@@ -1,6 +1,6 @@
 ---
 title: "Map App"
-image_url: "https://placehold.it/350x200"
+image_url: "images/map.png"
 description: "Interactive map showing police stop-search data"
 tags: ["JavaScript", "Google Maps"]
 ---
