@@ -1,3 +1,4 @@
 name: Andy Davies | Web Developer
 collections:
-  - projects
+  projects:
+    output: true
