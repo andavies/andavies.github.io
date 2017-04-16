@@ -59,9 +59,20 @@ header {
 	flex-grow: 1;
 }
 
-.grid {
+.featured-grid {
 	flex-grow: 5;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 750px;
+}
+
+// NOTE: width of grid is just over twice width of tile
+// intentionally, so only 2 can fit in a row. Prob need to 
+// make this more responsive and/or use variable calculations
+
+.project-tile {
+	height: 320px;
+	width: 370px;
 }
 
 

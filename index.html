@@ -17,30 +17,33 @@ layout: master
 	<div class="sidebar-selector text-center">
 		
 		<h2>Featured Work</h2>
+		<!-- for now
 		<h3>Websites</h3>
 		<h3>Programming</h3>
 		<h3>Writing</h3>
+		-->
 
 	</div>
 
-	<div class="grid flex-container">
-		<div class="equal-width-column flex-container">
-			<div class="equal-width-column">
-				example 1
-			</div>
-			<div class="equal-width-column">
-				example 2
-			</div>
-		</div>
-		<div class="equal-width-column flex-container">
-			<div class="equal-width-column">
-				example 3
-			</div>
-			<div class="equal-width-column">
-				example 4
-			</div>			
-		</div>
-	</div>
+	<div class="flex-container featured-grid">
+
+		{% for project in site.projects %}
+
+			{% if project.featured == true %}
+
+				<a href="{{ project.page_url }}">
+					<div class="project-tile" style="background-image: url('{{ project.image_url}}');">
+						<div>
+							<h4>{{ project.title }}</h4>
+						</div>
+					</div>
+				</a>
+
+			{% endif %}
+
+		{% endfor %}
+	
+	</div>	
 
 </section>
 
