@@ -1,4 +1,8 @@
 name: Andy Davies | Web Developer
+
 collections:
   projects:
     output: true
+
+gems:
+  - jekyll-gist
