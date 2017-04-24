@@ -34,6 +34,16 @@ p {
 	line-height: 1.45;
 }
 
+header{
+	nav {
+		font-size: 13px;
+		font-weight: 700;
+		color: $heading_color;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	}
+}
+
 
 /* REUSABLE CLASSES */
 
@@ -52,10 +62,6 @@ p {
 .horizontal-center {
 	display: block;
 	margin: auto;
-}
-
-.uppercase {
-	text-transform: uppercase;
 }
 
 
