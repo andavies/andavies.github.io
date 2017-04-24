@@ -26,22 +26,23 @@
 	margin: auto;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
 
 
 /* HEADER */
 
 header {
 
-	&.flex-container {
-		justify-content: space-around;
-	}
-	
 	.logo {
 		flex-grow: 1;
 	}
 
 	nav {
 		flex-grow: 2;
+		align-items: center;
 
 		&.flex-container {
 			justify-content: space-around;
