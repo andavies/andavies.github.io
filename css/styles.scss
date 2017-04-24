@@ -7,6 +7,12 @@
 }
 
 
+/* VARIABLES */
+
+$text_color: black;
+
+
+
 /* REUSABLE CLASSES */
 
 .flex-container {
@@ -30,6 +36,13 @@
 	text-transform: uppercase;
 }
 
+
+/* GLOBAL */
+
+a {
+	text-decoration: none;
+	color: $text_color;
+}
 
 
 /* HEADER */
