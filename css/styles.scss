@@ -42,9 +42,14 @@ $muted_background_color: #f3f3f3;
 
 /* GLOBAL */
 
+
 a {
 	text-decoration: none;
 	color: $text_color;
+
+	&:hover {
+		color: $highlight_color;
+	}
 }
 
 
