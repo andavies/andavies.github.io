@@ -16,6 +16,25 @@ $muted_text_color: #666;
 $muted_background_color: #f3f3f3;
 
 
+/* TYPOGRAPHY */
+
+body {
+	font: 400 14px 'Source Sans Pro', Helvetica, Arial, Sans-Serif;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: $heading_color;
+}
+
+p {
+	color: $text_color;
+	margin: 0 0 25px 0;
+	line-height: 1.45;
+}
+
+
 /* REUSABLE CLASSES */
 
 .flex-container {
@@ -40,23 +59,7 @@ $muted_background_color: #f3f3f3;
 }
 
 
-/* GLOBAL */
-
-body {
-	font: 400 14px 'Source Sans Pro', Helvetica, Arial, Sans-Serif;
-	text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    color: $heading_color;
-}
-
-p {
-	color: $text_color;
-	margin: 0 0 25px 0;
-	line-height: 1.45;
-}
+/* LINKS */
 
 a {
 	text-decoration: none;
