@@ -42,6 +42,11 @@ $muted_background_color: #f3f3f3;
 
 /* GLOBAL */
 
+body {
+	font: 400 14px 'Source Sans Pro', Helvetica, Arial, Sans-Serif;
+	text-rendering: optimizeLegibility;
+}
+
 
 a {
 	text-decoration: none;
