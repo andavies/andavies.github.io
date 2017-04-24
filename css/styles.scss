@@ -101,7 +101,13 @@ header {
 
 
 /* MAIN TITLE SECTION */
-/* none */
+
+.landing-feature {
+	background-image: url({{ site.url }}/images/frogger.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 
 /* FEATURED WORK */
