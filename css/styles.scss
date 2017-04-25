@@ -135,6 +135,10 @@ header {
 
 .sidebar-selector {
 	flex-grow: 1;
+
+	ul {
+		list-style: none;
+	}
 }
 
 .featured-grid {
