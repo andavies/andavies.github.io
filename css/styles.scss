@@ -99,10 +99,6 @@ header {
 }
 
 
-/* FOOTER */
-
-
-
 /* MAIN TITLE SECTION */
 
 .landing-feature {
@@ -110,6 +106,26 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	padding: 30px 0 60px 0;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
+	/* http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ */
+}
+
+.name {
+	color: white;
+	font-size: 13px;
+	font-weight: 700;	
+	letter-spacing: .18em;	
+}
+
+.job-title {
+	color: $highlight_color;
+	font-size: 64px;
+	font-weight: 400;	
+	letter-spacing: 0.1em;		
 }
 
 
@@ -145,6 +161,9 @@ header {
 
 
 /* ABOUT ME */
+
+
+/* FOOTER */
 
 
 /* PROJECTS PAGE */
