@@ -26,7 +26,7 @@ layout: master
 		<h2>Featured Work</h2>
 		
 		<ul>
-			<li>
+			<li class="active">
 				<h3>Programming</h3>
 			</li>
 
@@ -61,7 +61,7 @@ layout: master
 	
 	</div>	
 
-	<div class="flex-container featured-grid">
+	<div class="flex-container featured-grid hidden">
 
 		{% for project in site.projects %}
 
@@ -81,7 +81,7 @@ layout: master
 	
 	</div>
 
-	<div class="flex-container featured-grid">
+	<div class="flex-container featured-grid hidden">
 
 		{% for post in site.posts %}
 

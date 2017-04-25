@@ -141,6 +141,10 @@ header {
 	}
 }
 
+.active {
+	background-color: $muted_background_color;
+}
+
 .featured-grid {
 	flex-grow: 5;
 	flex-wrap: wrap;
@@ -155,6 +159,10 @@ header {
 .project-tile {
 	height: 320px;
 	width: 370px;
+}
+
+.hidden {
+	display: none;
 }
 
 
