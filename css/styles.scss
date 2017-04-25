@@ -18,16 +18,18 @@ $muted_background_color: #f3f3f3;
 
 /* TYPOGRAPHY */
 
-// remember to change the <link> in <head> as well (if you change the font variable)
+// remember to change the <link> in <head> as well (if you change the font variables)
 $font: 'Source Sans Pro';
+$normal: 400;
+$bold: 700;
 
 body {
-	font: 400 14px $font, Helvetica, Arial, Sans-Serif;
+	font: $normal 14px $font, Helvetica, Arial, Sans-Serif;
 	text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+    font-weight: $bold;
     color: $heading_color;
 }
 
@@ -82,7 +84,7 @@ header {
 		flex-grow: 2;
 		align-items: center;
 		font-size: 13px;
-		font-weight: 700;
+		font-weight: $bold;
 		color: $heading_color;
 	    text-transform: uppercase;
 	    letter-spacing: 1px;
@@ -117,15 +119,15 @@ header {
 .name {
 	color: white;
 	font-size: 13px;
-	font-weight: 700;	
+	font-weight: $bold;	
 	letter-spacing: .18em;	
 }
 
 .job-title {
 	color: $highlight_color;
 	font-size: 64px;
-	font-weight: 400;	
-	letter-spacing: 0.1em;		
+	letter-spacing: 0.1em;	
+	font-weight: $normal;	
 }
 
 
