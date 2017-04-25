@@ -85,7 +85,7 @@ a {
 header {
 
 	.logo {
-		flex-grow: 1;
+		flex-grow: 1;		
 	}
 
 	nav {
@@ -96,6 +96,11 @@ header {
 			justify-content: space-around;
 		}
 	}
+}
+
+.header-title {
+	text-transform: uppercase;
+	font-size: 48px;
 }
 
 
