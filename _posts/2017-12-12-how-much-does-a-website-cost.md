@@ -4,6 +4,7 @@ title: "How much does a website cost?"
 date: 2016-12-12
 tags: ["Websites"]
 image_url: "https://placehold.it/230x130"
+featured: true
 ---
 
 

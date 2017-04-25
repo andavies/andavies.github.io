@@ -7,6 +7,7 @@ tags: ["JavaScript", "HTML5 Canvas"]
 layout: project
 featured: true
 date: 1 February 2016
+type: "programming"
 ---
 
 <a href="https://andavies.github.io/frogger/">link to project</a>

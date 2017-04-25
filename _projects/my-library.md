@@ -6,6 +6,7 @@ description: "Web application that allows you to share your book collection"
 tags: ["PHP", "SQL", "HTML", "CSS"]
 layout: project
 featured: true
+type: "programming"
 ---
 
 This was the first project I ever made, back in 2015. It was the final project from Harvard University's superb programming course, [CS50](https://cs50.harvard.edu/). If you're a programmer at any level I would encourage you to have a look at that course. It's the ideal course for beginners, and certainly if you don't have a degree in computer science it can teach you plenty of fundamental ideas in programming that you may have missed.

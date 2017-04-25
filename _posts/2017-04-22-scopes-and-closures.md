@@ -4,6 +4,7 @@ title: "Scopes and Closures"
 date: 2017-04-22
 tags: ["Javascript", "Technical"]
 image_url: "https://placehold.it/230x130"
+featured: true
 ---
 
 ## Lexical Scope

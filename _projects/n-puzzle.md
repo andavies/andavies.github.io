@@ -6,6 +6,7 @@ description: "A program that solves any n-puzzle"
 tags: ["Python", "AI"]
 layout: project
 featured: true
+type: "programming"
 ---
 
 
