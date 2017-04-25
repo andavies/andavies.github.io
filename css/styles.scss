@@ -18,8 +18,11 @@ $muted_background_color: #f3f3f3;
 
 /* TYPOGRAPHY */
 
+// remember to change the <link> in <head> as well (if you change the font variable)
+$font: 'Source Sans Pro';
+
 body {
-	font: 400 14px 'Source Sans Pro', Helvetica, Arial, Sans-Serif;
+	font: 400 14px $font, Helvetica, Arial, Sans-Serif;
 	text-rendering: optimizeLegibility;
 }
 
