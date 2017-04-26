@@ -2,9 +2,9 @@
 ---
 
 /* for prototyping */
-* {
+/** {
 	border: red solid 1px !important;
-}
+}*/
 
 
 // COLOUR SCHEME
@@ -135,6 +135,12 @@ header {
 
 .sidebar-selector {
 	flex-grow: 1;
+	background-color: $muted_background_color;
+
+	h2 {
+		text-transform: uppercase;
+		font-weight: $normal;
+	}
 
 	ul {
 		list-style: none;
@@ -143,10 +149,22 @@ header {
 
 .tab {
 	cursor: pointer;
+	border-top: solid 1px #cdcdcd;
+	&:first-child {
+		border-top: none;
+	}
+
+	h3 {
+		font-weight: $normal;
+		padding: 20px 0 20px 5px;
+		margin: 0;
+		text-align: left;		
+	}
 }
 
 .active {
-	background-color: $muted_background_color;
+	background-color: white;
+	border-left: solid 5px $highlight_color;
 }
 
 .featured-grid {
