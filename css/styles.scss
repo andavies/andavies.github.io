@@ -141,6 +141,10 @@ header {
 	}
 }
 
+.tab {
+	cursor: pointer;
+}
+
 .active {
 	background-color: $muted_background_color;
 }
