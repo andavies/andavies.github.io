@@ -26,22 +26,22 @@ layout: master
 		<h2>Featured Work</h2>
 		
 		<ul>
-			<li class="tab active">
+			<li class="tab active" data-reference="featured-programming">
 				<h3>Programming</h3>
 			</li>
 
-			<li class="tab">
+			<li class="tab" data-reference="featured-websites">
 				<h3>Websites</h3>
 			</li>
 
-			<li class="tab">
+			<li class="tab" data-reference="featured-writing">
 				<h3>Writing</h3>
 			</li>
 		</ul>
 
 	</div>
 
-	<div class="flex-container featured-grid">
+	<div id="featured-programming" class="flex-container featured-grid">
 
 		{% for project in site.projects %}
 
@@ -61,7 +61,7 @@ layout: master
 	
 	</div>	
 
-	<div class="flex-container featured-grid hidden">
+	<div id="featured-websites" class="flex-container featured-grid hidden">
 
 		{% for project in site.projects %}
 
@@ -81,7 +81,7 @@ layout: master
 	
 	</div>
 
-	<div class="flex-container featured-grid hidden">
+	<div id="featured-writing" class="flex-container featured-grid hidden">
 
 		{% for post in site.posts %}
 
