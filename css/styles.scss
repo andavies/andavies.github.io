@@ -246,7 +246,13 @@ header {
 }
 
 .featured-post {
-	
+	img {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		display: block;
+		margin: auto;
+	}	
 }
 
 .featured-post-label {
@@ -263,13 +269,13 @@ header {
     color: $highlight_color;
     line-height: 0.75em;
     letter-spacing: 0.07em;
-    margin-top: 28px;
+    margin: 28px 0;
 }
 
 .button {
     border: 2px solid $highlight_color;
     padding: 18px 12px;
-    /* margin: 0 auto 20px auto; */
+    margin-top: 28px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     min-width: 80px;
@@ -277,6 +283,7 @@ header {
     font-weight: $bold;
     background-color: $muted_background_color;
     color: $highlight_color;
+    display: inline-block;
 }
 
 .button:hover {
