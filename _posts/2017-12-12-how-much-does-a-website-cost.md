@@ -8,7 +8,9 @@ featured: true
 ---
 
 
-Ask most web design agencies that question and they probably won’t give you a straight answer. The question may even irritate them. They’ll tell you they can’t give you an answer (“how long is a piece of string?”) and they’ll almost certainly ask what your budget is first. The problem is, you have no idea how much a website costs, and why would you?
+Ask most web design agencies that question and they probably won’t give you a straight answer. 
+
+The question may even irritate them. They’ll tell you they can’t give you an answer (“how long is a piece of string?”) and they’ll almost certainly ask what your budget is first. The problem is, you have no idea how much a website costs, and why would you?
 
 To be fair, they do have a bit of a point. You can throw a website together in a few hours for £50, or you can build a website for £100,000 (for example something like spectator.co.uk). Some websites – facebook.com for example - even cost millions of pounds to make. 
 

@@ -7,9 +7,11 @@ image_url: "https://placehold.it/230x130"
 featured: true
 ---
 
+There is more than one meaning of the word 'scope' when it comes to programming. 
+
 ## Lexical Scope
 
-There is more than one meaning of the word 'scope' when it comes to programming. One use of the word 'scope', is in 'lexical scope'. This refers to regions in your code where you can access a variable.
+One use of the word 'scope', is in 'lexical scope'. This refers to regions in your code where you can access a variable.
 
 When you declare a new variable in a Javascript file, and the variable is not enclosed within a function, the variable is accessible from anywhere in the program, and is said to be in the 'global scope'.
 
