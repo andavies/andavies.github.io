@@ -49,8 +49,9 @@ layout: master
 
 				<a href="{{ project.page_url }}">
 					<div class="project-tile" style="background-image: url('{{ project.image_url }}');">
-						<div>
-							<h4>{{ project.title }}</h4>
+						<div class="project-tile-info">
+							<h4 class="project-tile-title">{{ project.title }}</h4>
+							<span class="project-tile-desc">{{ project.description }}</span>
 						</div>
 					</div>
 				</a>
@@ -69,8 +70,9 @@ layout: master
 
 				<a href="{{ project.page_url }}">
 					<div class="project-tile" style="background-image: url('{{ project.image_url }}');">
-						<div>
-							<h4>{{ project.title }}</h4>
+						<div class="project-tile-info">
+							<h4 class="project-tile-title">{{ project.title }}</h4>
+							<span class="project-tile-desc">{{ project.description }}</span>
 						</div>
 					</div>
 				</a>
@@ -89,8 +91,8 @@ layout: master
 
 				<a href="{{ post.url }}">
 					<div class="project-tile" style="background-image: url('{{ post.image_url}}');">
-						<div>
-							<h4>{{ post.title }}</h4>
+						<div class="project-tile-info">
+							<h4 class="project-tile-desc">{{ post.title }}</h4>
 						</div>
 					</div>
 				</a>
