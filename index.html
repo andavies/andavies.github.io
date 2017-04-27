@@ -106,8 +106,9 @@ layout: master
 </section>
 
 
-<section>
+<section class="front-page-blog">
 
+	<!--
 	<h2 class="text-center">Popular blog posts</h2>
 
 	<div class="top-posts-wrapper flex-container">
@@ -124,6 +125,20 @@ layout: master
 		{% endfor %}
 
 	</div>
+	-->
+
+	{% for post in site.posts limit:1 %}
+
+		<article class="featured-post">
+		
+			<h2 class="featured-post-label">Latest blog post</h2>
+			<h3 class="featured-post-title">{{ post.title }}</h3>
+			<a class="button" href="{{ post.url }}">Read now</a>
+
+		</article>
+
+	{% endfor %}
+	
 
 </section>
 

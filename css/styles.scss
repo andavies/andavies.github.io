@@ -20,6 +20,7 @@ $muted_background_color: #f3f3f3;
 
 // remember to change the <link> in <head> as well (if you change the font variables)
 $font: 'Source Sans Pro';
+$light: 300;
 $normal: 400;
 $bold: 700;
 
@@ -237,11 +238,49 @@ header {
 }
 
 
-/* POPULAR BLOG POSTS */
+/* LATEST BLOG POSTS */
 
-.top-posts-wrapper {
-	justify-content: space-around;
-	flex-wrap: wrap;
+.front-page-blog {
+	text-align: center;
+	padding: 60px 0;
+}
+
+.featured-post {
+	
+}
+
+.featured-post-label {
+    font-size: 13px;
+    font-weight: $bold;
+    letter-spacing: .19em;
+    text-transform: uppercase;
+}
+
+.featured-post-title {
+	font-size: 64px;
+    font-weight: $light;
+    text-transform: uppercase;
+    color: $highlight_color;
+    line-height: 0.75em;
+    letter-spacing: 0.07em;
+}
+
+.button {
+    border: 2px solid $highlight_color;
+    padding: 18px 12px;
+    /* margin: 0 auto 20px auto; */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    min-width: 80px;
+    font-size: 12px;
+    font-weight: $bold;
+    background-color: $muted_background_color;
+    color: $highlight_color;
+}
+
+.button:hover {
+    color: white;
+    background-color: $highlight_color;
 }
 
 
