@@ -298,6 +298,29 @@ header {
 
 /* ABOUT ME */
 
+.front-page-about {
+	text-align: center;
+	background-color: $muted_background_color;
+	padding: 20px 0;
+
+	h2 {
+		font-weight: $normal;
+	    color: $highlight_color;
+	    font-size: 28px;
+	}
+
+	img {
+		border-radius: 50%;
+		display: block;
+		margin: auto;
+	}
+
+	.raised {
+		background-color: white;
+		margin: 20px;
+	}
+}
+
 
 /* FOOTER */
 
