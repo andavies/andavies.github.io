@@ -50,10 +50,6 @@ p {
 	flex-grow: 1;
 }
 
-.text-center {
-	text-align: center;
-}
-
 .horizontal-center {
 	display: block;
 	margin: auto;
@@ -104,6 +100,7 @@ header {
 /* MAIN TITLE SECTION */
 
 .landing-feature {
+	text-align: center;
 	background-image: url({{ site.url }}/images/frogger.png);
 	background-size: cover;
 	background-repeat: no-repeat;
