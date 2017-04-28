@@ -39,6 +39,10 @@ p {
 	line-height: 1.45;
 }
 
+ul {
+	list-style: none;
+}
+
 
 /* REUSABLE CLASSES */
 
@@ -141,11 +145,7 @@ header {
 		text-transform: uppercase;
 		font-weight: $normal;
 		padding-right: 10px;
-	}
-
-	ul {
-		list-style: none;
-	}
+	}	
 }
 
 .tab {
