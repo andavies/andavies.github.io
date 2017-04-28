@@ -304,6 +304,16 @@ header {
 	background-color: $muted_background_color;
 	padding: 20px 0;
 
+	.flex-container {
+		padding: 20px 10px;
+
+		.equal-width-column {
+		    display: flex;
+		    align-items: center;
+		    justify-content: space-around;
+		}
+	}
+
 	h2 {
 		font-weight: $normal;
 	    color: $highlight_color;
@@ -317,7 +327,6 @@ header {
 
 .raised {
 	background-color: white;
-	margin: 30px;
 	padding: 20px;
 	border-radius: 20px;
 	box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);
