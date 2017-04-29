@@ -2,9 +2,9 @@
 ---
 
 /* for prototyping */
-* {
+/** {
 	border: red solid 1px !important;
-}
+}*/
 
 
 // COLOUR SCHEME
@@ -365,6 +365,12 @@ footer {
 
 .sub-footer {
 	text-align: center;	
+	padding: 25px 10px;
+	flex-wrap: wrap;
+
+	.equal-width-column {
+		min-width: 400px;
+	}
 
 	li {
 		margin: 5px 0;
