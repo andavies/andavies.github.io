@@ -306,11 +306,13 @@ header {
 
 	.flex-container {
 		padding: 20px 10px;
+		flex-wrap: wrap;
 
 		.equal-width-column {
 		    display: flex;
 		    align-items: center;
 		    justify-content: space-around;
+		    min-width: 400px;
 		}
 	}
 
@@ -328,6 +330,7 @@ header {
 .raised {
 	background-color: white;
 	padding: 20px;
+	margin: 20px 0;
 	border-radius: 20px;
 	box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);
 
