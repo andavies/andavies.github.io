@@ -2,9 +2,9 @@
 ---
 
 /* for prototyping */
-* {
+/** {
 	border: red solid 1px !important;
-}
+}*/
 
 
 /* reset */
@@ -85,6 +85,13 @@ a {
 
 header {
 
+	position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    box-shadow: 0 3px 13px 0 rgba(2, 3, 3, 0.16);
+    z-index: 10;
+
 	.logo {
 		flex-grow: 1;		
 	}
@@ -118,7 +125,7 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	padding: 30px 0 60px 0;
+	padding: 80px 0 60px 0;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
