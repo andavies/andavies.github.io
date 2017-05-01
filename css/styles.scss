@@ -401,9 +401,58 @@ footer {
 
 /* PROJECTS (GRID) PAGE */
 
+h1.projects-page-header {
+	font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #23addb;
+    line-height: 0.75em;
+    letter-spacing: 0.07em;
+	margin-top: 120px;
+	text-align: center;
+}
+
 .project-grid, .tag-wrapper {
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.project-grid {
+
+	margin: 40px;
+	text-align: center;
+
+	img {
+		width: 380px;
+		height: 280px;
+	}
+
+	.main-project-tile {
+		padding: 20px;
+	}
+
+	h2 {
+		font-weight: $light;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-style: italic;
+		color: $muted_text_color;
+		font-weight: $light;
+	}
+}
+
+.tag-wrapper {
+	div {
+		font-size: 13px;
+	    font-weight: $bold;
+	    letter-spacing: .19em;
+	    text-transform: uppercase;
+	    background-color: $muted_background_color;
+	    border-radius: 5px;
+	    color: $highlight_color;
+	}
 }
 
 /* INDIVIDUAL PROJECT PAGES */
