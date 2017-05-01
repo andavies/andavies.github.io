@@ -3,15 +3,23 @@ title: Projects | Andy Davies
 layout: master
 ---
 
-<h2 class="text-center">Projects</h2>
+<h1 class="text-center">Projects</h2>
 
 <div class="flex-container project-grid">
 
 	{% for project in site.projects %}
 		<div>
 
-			<h3><a href="{{ project.page_url }}">{{ project.title }}</a></h3>
-			<a href="{{ project.page_url }}"><img src="{{ project.image_url }}"></a>
+			<h2>
+				<a href="{{ project.page_url }}">
+					{{ project.title }}
+				</a>
+			</h2>
+
+			<a href="{{ project.page_url }}">
+				<img src="{{ project.image_url }}">
+			</a>
+			
 			<p>{{ project.description }}</p>
 
 			<div class="flex-container tag-wrapper">
