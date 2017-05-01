@@ -408,12 +408,36 @@ footer {
 
 /* INDIVIDUAL PROJECT PAGES */
 
+.project-header {
+	text-align: center;
+
+	time {
+		font-size: 13px;
+	    font-weight: $bold;
+	    letter-spacing: .19em;
+	    text-transform: uppercase;
+	}
+}
+
 .project-banner {
 	height: 400px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+h1.article-title {
+	font-size: 72px;
+	font-weight: $light;
+}
+
+.article-description {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: $light;
+}
+
+
 
 
 
