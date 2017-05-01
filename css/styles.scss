@@ -2,9 +2,9 @@
 ---
 
 /* for prototyping */
-/** {
+* {
 	border: red solid 1px !important;
-}*/
+}
 
 
 /* reset */
@@ -519,6 +519,21 @@ h1.article-title {
 	a {
 		text-decoration: underline;
 	}
+}
+
+
+/* BLOG INDEX PAGE */
+
+// this is the same as .projects-page-header - TODO: refactor
+.page-title {
+	font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #23addb;
+    line-height: 0.75em;
+    letter-spacing: 0.07em;
+	margin-top: 120px;
+	text-align: center;
 }
 
 
