@@ -1,31 +1,44 @@
 ---
-title: Blog | Andy Davies
+title: The Blog | Andy Davies
 layout: master
 ---
 
-<h1 class="text-center">The Blog</h1>
-<hr>
+<h1 class="page-title">The Blog</h1>
 
-{% for post in site.posts %}
+<div class="articles">
 	
-	<article>
+	{% for post in site.posts %}
+	
+		<article>
 
-		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-		<p>{{ post.date }}</p>
+			<h2>
+				<a href="{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</h2>
 
-		<div class="flex-container tag-wrapper">
-			{% for tag in post.tags %}
-				<div>{{ tag }}</div>
-			{% endfor %}
-		</div>	
+			<time>{{ post.date | date: "%-d %B %Y" }}</time>
 
-		<div>
-			<img src="{{ post.image_url }}">
-			<p>{{ post.excerpt }}</p>
-		</div>
-		
-	</article>
+			<div class="flex-container tag-wrapper">
+				{% for tag in post.tags %}
+					<div>{{ tag }}</div>
+				{% endfor %}
+			</div>	
 
-	<hr>
+			<div class="article-preview">
 
-{% endfor %}
+				<img src="{{ post.image_url }}">
+
+				<div>
+					<p>{{ post.excerpt }}</p>
+					<a href="{{ post.url }}">Read more</a>
+				</div>				
+
+			</div>
+			
+		</article>
+
+	{% endfor %}
+
+</div>
+
