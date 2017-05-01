@@ -460,6 +460,16 @@ h1.article-title {
 	font-weight: $light;
 }
 
+.article-content {
+	margin: 30px 60px;
+	line-height: 1.7;
+	font-size: 18px;
+
+	a {
+		text-decoration: underline;
+	}
+}
+
 
 
 
