@@ -399,11 +399,20 @@ footer {
 }
 
 
-/* PROJECTS PAGE */
+/* PROJECTS (GRID) PAGE */
 
 .project-grid, .tag-wrapper {
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+/* INDIVIDUAL PROJECT PAGES */
+
+.project-banner {
+	height: 400px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 
