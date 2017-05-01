@@ -411,11 +411,33 @@ footer {
 .project-header {
 	text-align: center;
 
-	time {
+	time, .projects-label {
 		font-size: 13px;
 	    font-weight: $bold;
 	    letter-spacing: .19em;
 	    text-transform: uppercase;
+	}
+
+	.tags {
+		font-size: 13px;
+		display: inline-flex;
+		font-weight: $light;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin: 20px;
+
+		.tag {
+			padding: 0 5px;
+		}		
+
+		span {
+			color: $highlight_color;
+		}
+	}
+
+	hr {
+		color: $muted_background_color;
+		margin: 30px;
 	}
 }
 
@@ -429,6 +451,7 @@ footer {
 h1.article-title {
 	font-size: 72px;
 	font-weight: $light;
+	margin: 0;
 }
 
 .article-description {
