@@ -550,7 +550,7 @@ h1.article-title {
 			font-size: 30px;
 			line-height: 30px;
 			text-transform: capitalize;
-			margin: 10px 0;
+			margin: 10px 0 5px;
 		}
 
 		time {
@@ -559,8 +559,13 @@ h1.article-title {
 			font-style: italic;
 		}
 
-		.flex-container {
+		.tag-wrapper {
 			justify-content: flex-start;
+			margin: 8px 0;
+
+			div {
+				margin-right: 10px;
+			}
 		}
 	}
 }
