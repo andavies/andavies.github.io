@@ -567,6 +567,22 @@ h1.article-title {
 
 .article-preview {
 	display: flex;
+
+	div {
+		padding: 15px;
+
+		p {
+			font-style: italic;
+			font-weight: $light;
+		}
+
+		a {
+			font-weight: $bold;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			font-size: 12px;
+		}
+	}
 }
 
 
