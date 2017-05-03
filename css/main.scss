@@ -10,21 +10,7 @@
 @import 'normalize';
 @import 'reset';
 @import 'variables';
-
-body {
-	font: $normal 16px $font, Helvetica, Arial, Sans-Serif;
-	text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $bold;
-    color: $heading_color;
-}
-
-p {
-	color: $text_color;
-	line-height: 1.45;
-}
+@import 'typography';
 
 
 /* REUSABLE CLASSES */

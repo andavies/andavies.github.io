@@ -1,0 +1,13 @@
+body {
+	font: $normal 16px $font, Helvetica, Arial, Sans-Serif;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading_color;
+}
+
+p {
+	color: $text_color;
+	line-height: 1.45;
+}
