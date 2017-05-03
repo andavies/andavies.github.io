@@ -6,3 +6,7 @@ collections:
 
 gems:
   - jekyll-gist
+
+sass:
+  sass_dir: _sass
+  
