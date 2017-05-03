@@ -1,3 +1,5 @@
 _site/
 .jekyll-metadata
 blog-ideas.txt
+**/.sass-cache
+**/.sass-cache/*
