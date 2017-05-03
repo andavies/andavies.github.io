@@ -545,6 +545,10 @@ h1.article-title {
 		border-bottom: 1px solid $muted_background_color;
 		width: 60%;
 
+		&:last-child {
+			border-bottom: none;
+		}
+
 		h2 {
 			font-weight: $normal;
 			font-size: 30px;
