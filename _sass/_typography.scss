@@ -45,6 +45,12 @@ a {
 	color: $muted_text_color;
 }
 
+.front-page-blog {
+	.section-title {
+		@include small-caps-label(black);
+	}
+}
+
 .page-title {
 	@include blue-caps-title;
 }
