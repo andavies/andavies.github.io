@@ -73,3 +73,7 @@ a {
 .article-date {
 	@include small-caps-label(black);
 }
+
+.article-preview-link {
+	@include small-caps-label(black);
+}
