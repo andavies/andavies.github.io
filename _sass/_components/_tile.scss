@@ -1,0 +1,41 @@
+.tile {
+
+	height: 320px;
+	width: 370px;
+
+	/* hover effect from hover.css by Ian Lunn
+	 * https://github.com/IanLunn/Hover/blob/master/css/hover.css
+	 * minor modifications by me
+	 */
+
+	// TODO: use auto-prefixer
+
+	display: inline-block;
+	vertical-align: middle;	
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;	
+	transition-duration: 0.3s;	
+	transition-property: box-shadow, transform;
+	z-index: 0;
+
+	-webkit-transform: perspective(1px) translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+
+	&:hover {
+		position: relative;
+		z-index: 2;
+		box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);		
+		transform: scale(1.05);	
+
+		-webkit-transform: scale(1.05);	
+	}
+}
+
+.tile-info {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	background-color: white;
+	padding: 12px 20px 13px 20px;
+}

@@ -48,8 +48,8 @@ layout: master
 			{% if project.featured == true and project.type == 'programming' %}
 
 				<a href="{{ project.page_url }}">
-					<div class="project-tile hover-effect" style="background-image: url('{{ project.image_url }}');">
-						<div class="project-tile-info">
+					<div class="tile" style="background-image: url('{{ project.image_url }}');">
+						<div class="tile-info">
 							<h4 class="project-tile-title">{{ project.title }}</h4>
 							<span class="project-tile-desc">{{ project.description }}</span>
 						</div>
@@ -69,8 +69,8 @@ layout: master
 			{% if project.featured == true and project.type == 'website' %}
 
 				<a href="{{ project.page_url }}">
-					<div class="project-tile hover-effect" style="background-image: url('{{ project.image_url }}');">
-						<div class="project-tile-info">
+					<div class="tile" style="background-image: url('{{ project.image_url }}');">
+						<div class="tile-info">
 							<h4 class="project-tile-title">{{ project.title }}</h4>
 							<span class="project-tile-desc">{{ project.description }}</span>
 						</div>
@@ -90,8 +90,8 @@ layout: master
 			{% if post.featured == true %}
 
 				<a href="{{ post.url }}">
-					<div class="project-tile hover-effect" style="background-image: url('{{ post.image_url}}');">
-						<div class="project-tile-info">
+					<div class="tile" style="background-image: url('{{ post.image_url}}');">
+						<div class="tile-info">
 							<h4 class="project-tile-desc">{{ post.title }}</h4>
 						</div>
 					</div>
