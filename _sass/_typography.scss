@@ -21,6 +21,12 @@ a {
 	}
 }
 
+.main-header {
+	nav {
+		@include small-caps-label(black);
+	}
+}
+
 .page-title {
 	@include blue-caps-title;
 }

@@ -58,7 +58,7 @@
 
 /* HEADER */
 
-header.main-header {
+.main-header {
 
 	position: fixed;
     width: 100%;
@@ -75,12 +75,7 @@ header.main-header {
 	nav {
 		flex-grow: 2;
 		align-items: center;
-		font-size: 13px;
-		font-weight: $bold;
-		color: $heading_color;
-	    text-transform: uppercase;
-	    letter-spacing: 1px;
-
+				
 		&.flex-container {
 			justify-content: space-around;
 		}
