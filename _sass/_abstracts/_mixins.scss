@@ -5,3 +5,11 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
+
+@mixin small-caps-label($color){
+	font-size: 13px;
+	font-weight: $bold;
+	letter-spacing: .19em;
+	text-transform: uppercase;
+	color: $color;
+}
