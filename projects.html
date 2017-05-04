@@ -9,27 +9,35 @@ layout: master
 <div class="flex-container project-grid">
 
 	{% for project in site.projects %}
-		<div class="main-project-tile">
 
-			<h2>
-				<a href="{{ project.page_url }}">
-					{{ project.title }}
-				</a>
-			</h2>
+		<div>
 
 			<a href="{{ project.page_url }}">
-				<img src="{{ project.image_url }}" class="tile">
+
+				<div class="tile" style="background-image: url('{{ project.image_url }}');">
+
+					<div class="tile-info">
+
+						<h2 class="project-tile-title">{{ project.title }}</h2>
+
+						<span class="project-tile-desc">{{ project.description }}</span>
+
+					</div>
+
+				</div>
+
 			</a>
 
-			<p>{{ project.description }}</p>
-
 			<div class="flex-container tag-wrapper">
+
 				{% for tag in project.tags %}
 					<div class="tag">{{ tag }}</div>
 				{% endfor %}
+				
 			</div>			
 
 		</div>
+
 	{% endfor %}
 
 </div>
