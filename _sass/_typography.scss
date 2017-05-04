@@ -27,6 +27,10 @@ a {
 	}
 }
 
+.job-title {
+	@include blue-caps-title;
+}
+
 .page-title {
 	@include blue-caps-title;
 }
