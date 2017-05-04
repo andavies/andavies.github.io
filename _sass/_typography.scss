@@ -28,3 +28,8 @@ a {
 .featured-post-title {
 	@include blue-caps-title;
 }
+
+.article-title {
+	font-size: 72px;
+	font-weight: $light;
+}
