@@ -35,11 +35,11 @@ a {
 	@include small-caps-label(white);
 }
 
-.project-tile-title {
+.tile-title {
 	@include small-caps-label(black);
 }
 
-.project-tile-desc {
+.tile-description {
 	font-size: 16px;
 	font-weight: $normal;
 	color: $muted_text_color;
