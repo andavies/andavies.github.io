@@ -344,17 +344,11 @@ footer {
 	}
 }
 
-.tag-wrapper {
-	div {
-		font-size: 13px;
-	    font-weight: $bold;
-	    letter-spacing: .19em;
-	    text-transform: uppercase;
-	    background-color: $muted_background_color;
+.tag {
+		background-color: $muted_background_color;
 	    border-radius: 5px;
-	    color: $highlight_color;
 	}
-}
+
 
 /* INDIVIDUAL PROJECT PAGES */
 
