@@ -13,6 +13,8 @@
 @import '_abstracts/mixins';
 @import '_base/typography';
 @import '_components/tile';
+@import '_layout/header';
+
 
 /* REUSABLE CLASSES */
 
@@ -28,39 +30,6 @@
 .horizontal-center {
 	display: block;
 	margin: auto;
-}
-
-
-
-/* HEADER */
-
-.main-header {
-
-	position: fixed;
-    width: 100%;
-    background-color: white;
-    top: 0;
-    box-shadow: 0 3px 13px 0 rgba(2, 3, 3, 0.16);
-    z-index: 10;
-
-	.logo {
-		flex-grow: 1;	
-		text-align: center;	
-	}
-
-	nav {
-		flex-grow: 2;
-		align-items: center;
-
-		&.flex-container {
-			justify-content: space-around;
-		}
-	}
-}
-
-.header-title {
-	text-transform: uppercase;
-	font-size: 48px;
 }
 
 

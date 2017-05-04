@@ -21,6 +21,11 @@ a {
 	}
 }
 
+.header-title {
+	text-transform: uppercase;
+	font-size: 48px;
+}
+
 .main-header {
 	nav {
 		@include small-caps-label(black);
