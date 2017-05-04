@@ -20,3 +20,11 @@ a {
 		color: $highlight_color;
 	}
 }
+
+.page-title {
+	@include blue-caps-title;
+}
+
+.featured-post-title {
+	@include blue-caps-title;
+}

@@ -7,9 +7,10 @@
 }*/
 
 
-@import 'normalize';
-@import 'reset';
-@import 'variables';
+@import '_base/normalize';
+@import '_base/reset';
+@import '_abstracts/variables';
+@import '_abstracts/mixins';
 @import 'typography';
 
 
@@ -113,13 +114,6 @@ header.main-header {
 	font-size: 13px;
 	font-weight: $bold;	
 	letter-spacing: .18em;	
-}
-
-.job-title {
-	color: $highlight_color;
-	font-size: 64px;
-	letter-spacing: 0.1em;	
-	font-weight: $normal;	
 }
 
 
@@ -236,12 +230,7 @@ header.main-header {
 }
 
 .featured-post-title {
-	font-size: 64px;
-    font-weight: $light;
-    text-transform: uppercase;
-    color: $highlight_color;
-    line-height: 0.75em;
-    letter-spacing: 0.07em;
+	line-height: 0.75em;
     margin: 28px 0;
 }
 
@@ -352,17 +341,6 @@ footer {
 
 /* PROJECTS (GRID) PAGE */
 
-h1.projects-page-header {
-	font-size: 64px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #23addb;
-    line-height: 0.75em;
-    letter-spacing: 0.07em;
-	margin-top: 120px;
-	text-align: center;
-}
-
 .project-grid, .tag-wrapper {
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -472,18 +450,6 @@ h1.article-title {
 
 
 /* BLOG INDEX PAGE */
-
-// this is the same as .projects-page-header - TODO: refactor
-.page-title {
-	font-size: 64px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #23addb;
-    line-height: 0.75em;
-    letter-spacing: 0.07em;
-	margin-top: 120px;
-	text-align: center;
-}
 
 // TODO: change this to general .page-content(?) class
 .articles {
