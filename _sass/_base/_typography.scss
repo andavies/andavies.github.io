@@ -32,12 +32,14 @@ a {
 	}
 }
 
-.job-title {
-	@include blue-caps-title;
-}
-
 .name {
 	@include small-caps-label(white);
+	@include antialiase;
+}
+
+.job-title {
+	@include blue-caps-title;
+	@include antialiase;
 }
 
 .tile-title {

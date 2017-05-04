@@ -6,6 +6,8 @@
 	border: red solid 1px !important;
 }*/
 
+// http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
+$url: "{{ site.url }}";
 
 @import '_base/normalize';
 @import '_base/reset';
@@ -14,6 +16,7 @@
 @import '_base/typography';
 @import '_components/tile';
 @import '_layout/header';
+@import '_layout/landing-feature';
 
 
 /* REUSABLE CLASSES */
@@ -30,23 +33,6 @@
 .horizontal-center {
 	display: block;
 	margin: auto;
-}
-
-
-/* MAIN TITLE SECTION */
-
-.landing-feature {
-	text-align: center;
-	background-image: url({{ site.url }}/images/frogger.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	padding: 80px 0 60px 0;
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	/* https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
-	/* http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ */
 }
 
 
