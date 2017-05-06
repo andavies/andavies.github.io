@@ -1,0 +1,27 @@
+footer {
+	background-color: black;
+
+	h2, a, p {
+		color: white;
+	}
+}
+
+.sub-footer {
+	text-align: center;	
+	padding: 25px 10px;
+	flex-wrap: wrap;
+
+	.equal-width-column {
+		min-width: 400px;
+	}
+
+	li {
+		margin: 5px 0;
+	}	
+}
+
+.main-footer {
+	p {
+		margin: 0 15px;
+	}
+}

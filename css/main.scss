@@ -27,6 +27,7 @@ $url: "{{ site.url }}";
 @import '_layout/header';
 @import '_layout/featured-post';
 @import '_layout/about-me-section';
+@import '_layout/footer';
 
 
 /* REUSABLE CLASSES */
@@ -43,38 +44,6 @@ $url: "{{ site.url }}";
 .horizontal-center {
 	display: block;
 	margin: auto;
-}
-
-
-
-/* FOOTER */
-
-footer {
-	background-color: black;
-
-	h2, a, p {
-		color: white;
-	}
-}
-
-.sub-footer {
-	text-align: center;	
-	padding: 25px 10px;
-	flex-wrap: wrap;
-
-	.equal-width-column {
-		min-width: 400px;
-	}
-
-	li {
-		margin: 5px 0;
-	}	
-}
-
-.main-footer {
-	p {
-		margin: 0 15px;
-	}
 }
 
 
