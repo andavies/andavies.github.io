@@ -23,7 +23,7 @@ $url: "{{ site.url }}";
 @import '_components/landing-feature';
 
 @import '_layout/header';
-
+@import '_layout/featured-post';
 
 
 /* REUSABLE CLASSES */
@@ -44,39 +44,7 @@ $url: "{{ site.url }}";
 
 
 
-
-
-
 /* LATEST BLOG POSTS */
-
-.front-page-blog {
-	text-align: center;
-	padding: 75px 0;
-}
-
-.featured-post {
-
-	img {
-		border-radius: 50%;
-		height: 200px;
-		width: 200px;
-		display: block;
-		margin: auto;
-	}	
-
-	p {
-	    font-style: italic;
-	    font-weight: $light;
-	    color: $muted_text_color;
-	    font-size: 16px;
-	    padding: 0 20% 0 20%;
-	}
-}
-
-.featured-post-title {
-	line-height: 0.75em;
-    margin: 28px 0;
-}
 
 .button {
     border: 2px solid $highlight_color;

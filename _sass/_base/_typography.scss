@@ -67,6 +67,15 @@ a {
 	}
 }
 
+.featured-post {
+	p {
+		font-style: italic;
+	    font-weight: $light;
+	    color: $muted_text_color;
+	    font-size: 16px;
+	}
+}
+
 .page-title {
 	@include blue-caps-title;
 }

@@ -1,0 +1,24 @@
+.front-page-blog {
+	text-align: center;
+	padding: 75px 0;
+}
+
+.featured-post {
+
+	img {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		display: block;
+		margin: auto;
+	}	
+
+	p {	    
+	    padding: 0 20% 0 20%;
+	}
+}
+
+.featured-post-title {
+	line-height: 0.75em;
+    margin: 28px 0;
+}
