@@ -1,3 +1,9 @@
+// (remember to change the <link> in <head> as well (if you change the font variables))
+$font: 'Source Sans Pro';
+$light: 300;
+$normal: 400;
+$bold: 700;
+
 body {
 	font: $normal 16px $font, Helvetica, Arial, Sans-Serif;
 	text-rendering: optimizeLegibility;

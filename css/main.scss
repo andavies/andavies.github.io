@@ -9,7 +9,7 @@
 // http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
 $url: "{{ site.url }}";
 
-@import '_abstracts/variables';
+@import '_abstracts/colors';
 @import '_abstracts/mixins';
 
 @import '_base/normalize';
