@@ -1,0 +1,21 @@
+.front-page-about {
+	text-align: center;
+	background-color: $muted_background_color;
+	padding: 20px 0;
+
+	.flex-container {
+		padding: 20px 10px;
+		flex-wrap: wrap;
+
+		.equal-width-column {
+		    display: flex;
+		    align-items: center;
+		    justify-content: space-around;
+		    min-width: 400px;
+		}
+	}
+
+	img {
+		border-radius: 50%;
+	}
+}
