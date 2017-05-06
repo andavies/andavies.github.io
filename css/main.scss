@@ -19,7 +19,7 @@ $url: "{{ site.url }}";
 @import '_base/typography';
 
 @import '_components/tile';
-@import '_components/grid-selector';
+@import '_components/featured-work';
 @import '_components/landing-feature';
 @import '_components/button';
 @import '_components/info-card';
@@ -41,6 +41,7 @@ $url: "{{ site.url }}";
 
 /* REUSABLE CLASSES */
 
+/*
 .equal-width-column {
 	flex-grow: 1;
 	width: 0;
@@ -50,4 +51,5 @@ $url: "{{ site.url }}";
 	display: block;
 	margin: auto;
 }
+*/
 
