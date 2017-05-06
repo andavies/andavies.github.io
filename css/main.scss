@@ -6,15 +6,21 @@
 	border: red solid 1px !important;
 }*/
 
+
 // http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
 $url: "{{ site.url }}";
 
-@import '_base/normalize';
-@import '_base/reset';
+
 @import '_abstracts/variables';
 @import '_abstracts/mixins';
+
+@import '_base/normalize';
+@import '_base/reset';
 @import '_base/typography';
+
 @import '_components/tile';
+@import '_components/sidebar-selector';
+
 @import '_layout/header';
 @import '_layout/landing-feature';
 
@@ -36,42 +42,6 @@ $url: "{{ site.url }}";
 }
 
 
-/* FEATURED WORK */
-
-.sidebar-selector {
-	flex-grow: 1;
-	background-color: $muted_background_color;
-	padding-left: 7%;
-	box-shadow: 5px -16px 20px 0 rgba(0, 0, 0, 0.3);
-	z-index: 1;
-
-	h2 {
-		text-transform: uppercase;
-		font-weight: $normal;
-		padding-right: 10px;
-	}	
-}
-
-.tab {
-	cursor: pointer;
-	border-top: solid 1px #cdcdcd;
-	padding-right: 15px;
-	&:first-child {
-		border-top: none;
-	}
-
-	h3 {
-		font-weight: $normal;
-		padding: 20px 0 20px 5px;
-		margin: 0;
-		text-align: left;		
-	}
-}
-
-.active {
-	background-color: white;
-	border-left: solid 5px $highlight_color;
-}
 
 .featured-grid {
 	flex-grow: 5;

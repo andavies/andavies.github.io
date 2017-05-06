@@ -1,0 +1,33 @@
+.sidebar-selector {
+	flex-grow: 1;
+	background-color: $muted_background_color;
+	padding-left: 7%;
+	box-shadow: 5px -16px 20px 0 rgba(0, 0, 0, 0.3);
+	z-index: 1;
+
+	
+	.sidebar-selector-heading {
+		padding-right: 10px;
+	}
+		
+}
+
+.tab {
+	cursor: pointer;
+	border-top: solid 1px #cdcdcd;
+	padding-right: 15px;
+	&:first-child {
+		border-top: none;
+	}
+
+	.tab-heading {
+		padding: 20px 0 20px 5px;
+		margin: 0;
+		text-align: left;
+	}
+}
+
+.active {
+	background-color: white;
+	border-left: solid 5px $highlight_color;
+}
