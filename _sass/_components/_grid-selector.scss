@@ -31,3 +31,14 @@
 	background-color: white;
 	border-left: solid 5px $highlight_color;
 }
+
+.featured-grid {
+	flex-grow: 5;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 750px;
+}
+
+.hidden {
+	display: none;
+}

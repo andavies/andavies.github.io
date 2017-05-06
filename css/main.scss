@@ -19,7 +19,7 @@ $url: "{{ site.url }}";
 @import '_base/typography';
 
 @import '_components/tile';
-@import '_components/sidebar-selector';
+@import '_components/grid-selector';
 @import '_components/landing-feature';
 
 @import '_layout/header';
@@ -44,16 +44,7 @@ $url: "{{ site.url }}";
 
 
 
-.featured-grid {
-	flex-grow: 5;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	width: 750px;
-}
 
-.hidden {
-	display: none;
-}
 
 
 /* LATEST BLOG POSTS */
