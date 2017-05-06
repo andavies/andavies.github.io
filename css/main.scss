@@ -31,6 +31,7 @@ $url: "{{ site.url }}";
 @import '_layout/featured-post';
 @import '_layout/about-me-section';
 @import '_layout/footer';
+@import '_layout/article-header';
 
 
 /* REUSABLE CLASSES */
@@ -66,21 +67,7 @@ $url: "{{ site.url }}";
 
 /* INDIVIDUAL PROJECT PAGES */
 
-.project-header {
-	text-align: center;		
 
-	hr {
-		color: $muted_background_color;
-		margin: 30px;
-	}
-}
-
-.project-banner {
-	height: 400px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
 
 .article-title {	
 	margin: 0;
