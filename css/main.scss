@@ -6,10 +6,8 @@
 	border: red solid 1px !important;
 }*/
 
-
 // http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
 $url: "{{ site.url }}";
-
 
 @import '_abstracts/variables';
 @import '_abstracts/mixins';
@@ -37,19 +35,3 @@ $url: "{{ site.url }}";
 @import '_layout/article-content';
 @import '_layout/article-index';
 @import '_layout/projects';
-
-
-/* REUSABLE CLASSES */
-
-/*
-.equal-width-column {
-	flex-grow: 1;
-	width: 0;
-}
-
-.horizontal-center {
-	display: block;
-	margin: auto;
-}
-*/
-
