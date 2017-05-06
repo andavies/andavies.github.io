@@ -23,6 +23,7 @@ $url: "{{ site.url }}";
 @import '_components/landing-feature';
 @import '_components/button';
 @import '_components/info-card';
+@import '_components/page-title';
 
 @import '_layout/header';
 @import '_layout/featured-post';
@@ -48,10 +49,6 @@ $url: "{{ site.url }}";
 
 
 /* PROJECTS (GRID) PAGE */
-
-.page-title {
-	text-align: center;
-}
 
 .project-grid, .tag-wrapper {
 	flex-wrap: wrap;
