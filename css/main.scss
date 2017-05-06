@@ -24,6 +24,8 @@ $url: "{{ site.url }}";
 @import '_components/button';
 @import '_components/info-card';
 @import '_components/page-title';
+@import '_components/tag';
+@import '_components/breadcrumbs';
 
 @import '_layout/header';
 @import '_layout/featured-post';
@@ -50,7 +52,7 @@ $url: "{{ site.url }}";
 
 /* PROJECTS (GRID) PAGE */
 
-.project-grid, .tag-wrapper {
+.project-grid {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
@@ -60,10 +62,6 @@ $url: "{{ site.url }}";
 	text-align: center;	
 }
 
-.tag {
-		background-color: $muted_background_color;
-	    border-radius: 5px;
-	}
 
 
 /* INDIVIDUAL PROJECT PAGES */
@@ -71,22 +69,9 @@ $url: "{{ site.url }}";
 .project-header {
 	text-align: center;
 
-	.tags {
-		font-size: 13px;
-		display: inline-flex;
-		font-weight: $light;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		margin: 20px;
-
-		.tag {
-			padding: 0 5px;
-		}		
-
-		span {
-			color: $highlight_color;
-		}
-	}
+	span {
+		color: $highlight_color;
+	}	
 
 	hr {
 		color: $muted_background_color;
@@ -143,16 +128,7 @@ $url: "{{ site.url }}";
 			font-size: 12px;
 			font-weight: $normal;
 			font-style: italic;
-		}
-
-		.tag-wrapper {
-			justify-content: flex-start;
-			margin: 8px 0;
-
-			div {
-				margin-right: 10px;
-			}
-		}
+		}		
 	}
 }
 
