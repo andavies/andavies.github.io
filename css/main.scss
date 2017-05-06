@@ -41,10 +41,6 @@ $url: "{{ site.url }}";
 
 /* REUSABLE CLASSES */
 
-.flex-container {
-	display: flex;
-}
-
 .equal-width-column {
 	flex-grow: 1;
 	width: 0;

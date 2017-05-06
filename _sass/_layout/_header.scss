@@ -1,5 +1,5 @@
 .main-header {
-
+	display: flex;
 	position: fixed;
     width: 100%;
     background-color: white;
@@ -13,11 +13,9 @@
 	}
 
 	nav {
+		display:flex;
 		flex-grow: 2;
 		align-items: center;
-
-		&.flex-container {
-			justify-content: space-around;
-		}
+		justify-content: space-around;		
 	}
 }
