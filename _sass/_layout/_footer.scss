@@ -9,10 +9,13 @@ footer {
 .sub-footer {
 	text-align: center;	
 	padding: 25px 10px;
+	display: flex;
 	flex-wrap: wrap;
 
-	.equal-width-column {
+	.my-profiles,
+	.xkcd {
 		min-width: 400px;
+		flex-grow: 1;
 	}
 
 	li {
