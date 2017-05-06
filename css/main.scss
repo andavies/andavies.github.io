@@ -27,6 +27,7 @@ $url: "{{ site.url }}";
 @import '_components/tag';
 @import '_components/breadcrumbs';
 @import '_components/article-title';
+@import '_components/article-preview';
 
 @import '_layout/header';
 @import '_layout/featured-post';
@@ -34,6 +35,7 @@ $url: "{{ site.url }}";
 @import '_layout/footer';
 @import '_layout/article-header';
 @import '_layout/article-content';
+@import '_layout/article-index';
 
 
 /* REUSABLE CLASSES */
@@ -64,67 +66,3 @@ $url: "{{ site.url }}";
 	margin: 40px;
 	text-align: center;	
 }
-
-
-
-
-/* BLOG INDEX PAGE */
-
-// TODO: change this to general .page-content(?) class
-.articles {
-	margin: 30px 60px;
-
-	article {
-		padding-bottom: 35px;
-		border-bottom: 1px solid $muted_background_color;
-		max-width: 700px;
-
-		&:last-child {
-			border-bottom: none;
-		}
-
-		h2 {
-			font-weight: $normal;
-			font-size: 30px;
-			line-height: 30px;
-			text-transform: capitalize;
-			margin: 10px 0 5px;
-		}
-
-		time {
-			font-size: 12px;
-			font-weight: $normal;
-			font-style: italic;
-		}		
-	}
-}
-
-.article-preview {
-	display: flex;
-
-	div {
-		padding: 15px;
-
-		p {
-			font-style: italic;
-			font-weight: $light;
-			margin: 0 0 5px;
-		}
-	}
-}
-
-@media (max-width: 580px){
-	.article-preview {
-		img {
-			display: none;
-		}
-		div {
-			padding-left: 0;
-		}		
-	}
-}
-
-
-
-
-

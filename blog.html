@@ -5,13 +5,13 @@ layout: master
 
 <h1 class="page-title">The Blog</h1>
 
-<div class="articles">
+<div class="article-index">
 	
 	{% for post in site.posts %}
 	
-		<article>
+		<article class="article-preview">
 
-			<h2>
+			<h2 class="article-preview-heading">
 				<a href="{{ post.url }}">
 					{{ post.title }}
 				</a>
@@ -25,7 +25,7 @@ layout: master
 				{% endfor %}
 			</div>	
 
-			<div class="article-preview">
+			<div class="article-preview-excerpt">
 
 				<img src="{{ post.image_url }}">
 
