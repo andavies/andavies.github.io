@@ -67,11 +67,7 @@ $url: "{{ site.url }}";
 /* INDIVIDUAL PROJECT PAGES */
 
 .project-header {
-	text-align: center;
-
-	span {
-		color: $highlight_color;
-	}	
+	text-align: center;		
 
 	hr {
 		color: $muted_background_color;
