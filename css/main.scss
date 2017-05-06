@@ -20,9 +20,10 @@ $url: "{{ site.url }}";
 
 @import '_components/tile';
 @import '_components/sidebar-selector';
+@import '_components/landing-feature';
 
 @import '_layout/header';
-@import '_layout/landing-feature';
+
 
 
 /* REUSABLE CLASSES */
