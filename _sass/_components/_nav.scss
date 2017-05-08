@@ -17,26 +17,33 @@ nav {
 
 @media screen and (max-width: 650px){
 
-	.menu-items {
-		display: none;
-	}
+	.menu-closed {
+		
+		.menu-items {
+			display: none;
+		}					
 
-	
-	nav {
+		.menu-icon {
+			display: block;
+		}		
+	}	
+
+	.menu-open {
+
 		flex-direction: column;
+
+		.menu-items {
+			display: flex;
+			flex-direction: column;
+		}
 
 		a {
 			padding: 5px;
 		}
-	}
 
-	.menu-icon {
-		display: block;
-		border-bottom: solid 1px black;
-	}
-
-	.menu-items {
-		display: flex;
-		flex-direction: column;
+		.menu-icon {
+			display: block;
+			border-bottom: solid 1px black;
+		}
 	}
 }
