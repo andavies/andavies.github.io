@@ -1,6 +1,13 @@
 nav {
 	display:flex;
 	align-items: center;
+	justify-content: space-around;
+}
+
+.menu-items {
+	width: 100%;
+	display: flex;
+	align-items: center;
 	justify-content: space-around;		
 }
 
@@ -10,11 +17,26 @@ nav {
 
 @media screen and (max-width: 650px){
 
-	nav a {
+	.menu-items {
 		display: none;
+	}
+
+	
+	nav {
+		flex-direction: column;
+
+		a {
+			padding: 5px;
+		}
 	}
 
 	.menu-icon {
 		display: block;
+		border-bottom: solid 1px black;
+	}
+
+	.menu-items {
+		display: flex;
+		flex-direction: column;
 	}
 }
