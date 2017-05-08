@@ -99,6 +99,10 @@ a {
 	}
 }
 
+.profiles-heading {
+	@include small-caps-label(white);
+}
+
 .page-title {
 	@include blue-caps-title;
 }
