@@ -1,0 +1,20 @@
+nav {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;		
+}
+
+.menu-icon {
+	display: none;
+}
+
+@media screen and (max-width: 650px){
+
+	nav a {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+}
