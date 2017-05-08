@@ -82,6 +82,23 @@ a {
 	}
 }
 
+.about-me-heading {
+	@include small-caps-label(black);
+}
+
+.about-me-info {
+	p {
+		font-size: 22px;
+		font-style: italic;
+		font-weight: $light;
+	}
+
+	ul {
+		font-size: 18px;
+		font-weight: $light;
+	}
+}
+
 .page-title {
 	@include blue-caps-title;
 }
