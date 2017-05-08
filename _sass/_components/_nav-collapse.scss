@@ -1,30 +1,23 @@
-/* responsive-nav.js 1.0.39 by @viljamis 
- * modified by Andy Davies
- */
-
-nav {
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
-}
+/*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: flex;
+  display: block;
   list-style: none;
 }
 
 .nav-collapse li {
   width: 100%;
-  text-align: center;
+  display: block;
 }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
   position: absolute;
+  display: block;
   overflow: hidden;
   zoom: 1;
 }
