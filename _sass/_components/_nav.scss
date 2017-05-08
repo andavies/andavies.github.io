@@ -17,6 +17,10 @@ nav {
 
 @media screen and (max-width: 650px){
 
+	.main-header {
+		display: block !important;
+	}
+
 	.menu-closed {
 		
 		.menu-items {
