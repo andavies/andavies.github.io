@@ -48,11 +48,15 @@ layout: master
 			{% if project.featured == true and project.type == 'programming' %}
 
 				<a href="{{ project.page_url }}">
-					<div class="tile" style="background-image: url('{{ project.image_url }}');">
+					<div class="tile">
+
 						<div class="tile-info">
 							<h4 class="tile-title">{{ project.title }}</h4>
 							<span class="tile-description">{{ project.description }}</span>
 						</div>
+
+						<img src="{{ project.image_url }}">
+
 					</div>
 				</a>
 
@@ -69,11 +73,15 @@ layout: master
 			{% if project.featured == true and project.type == 'website' %}
 
 				<a href="{{ project.page_url }}">
-					<div class="tile" style="background-image: url('{{ project.image_url }}');">
+					<div class="tile">
+
 						<div class="tile-info">
 							<h4 class="tile-title">{{ project.title }}</h4>
 							<span class="tile-description">{{ project.description }}</span>
 						</div>
+
+						<img src="{{ project.image_url }}">
+
 					</div>
 				</a>
 
@@ -90,10 +98,14 @@ layout: master
 			{% if post.featured == true %}
 
 				<a href="{{ post.url }}">
-					<div class="tile" style="background-image: url('{{ post.image_url}}');">
+					<div class="tile">
+
 						<div class="tile-info">
 							<h4 class="tile-description">{{ post.title }}</h4>
 						</div>
+
+						<img src="{{ post.image_url }}">
+						
 					</div>
 				</a>
 
