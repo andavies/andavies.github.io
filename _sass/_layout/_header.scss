@@ -8,11 +8,11 @@
     z-index: 10;
 
 	.logo {
-		flex-grow: 1;	
+		min-width: 40%;
 		text-align: center;	
 	}
 
 	nav {
-		flex-grow: 2;				
+		min-width: 60%;				
 	}
 }
