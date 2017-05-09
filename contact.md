@@ -1,8 +1,6 @@
 ---
-title: Contact | Andy Davies
-layout: master
+title: Contact
+layout: page
 ---
-
-*Contact*
 
 Contact info here

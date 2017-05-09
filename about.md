@@ -1,6 +1,6 @@
 ---
-title: About Me | Andy Davies
-layout: master
+title: About Me
+layout: page
 ---
 
 I like to refer to myself simply as a programmer, but my current range of skills labels me more specifically as a web developer.
