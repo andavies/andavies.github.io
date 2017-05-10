@@ -1,16 +1,28 @@
 .featured-work-grid {
-	display: flex;
+	/*display: flex;*/
+	display: block;
+	width: 100%;
 }
 
 .sidebar-selector {
-	flex-grow: 1;
+
+	/*
 	background-color: $muted_background_color;
 	padding-left: 7%;
 	box-shadow: 5px -16px 20px 0 rgba(0, 0, 0, 0.3);
 	z-index: 1;
-	
+
 	.sidebar-selector-heading {
 		padding-right: 10px;
+	}
+	*/
+
+	.sidebar-selector-heading {
+		text-align: center;
+	}
+
+	ul {
+		display: none;
 	}		
 }
 
@@ -36,10 +48,9 @@
 
 .featured-grid {
 	display: flex;
-	flex-grow: 5;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	width: 750px;
+	width: 100%;
 }
 
 .hidden {
