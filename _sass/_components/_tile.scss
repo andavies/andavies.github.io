@@ -1,6 +1,5 @@
 .tile {
 
-	width: 100%;
 	box-sizing: border-box;
 	padding: 5%;
 
@@ -26,9 +25,26 @@
 	
 
 	img {
-		width: 100%;
+		max-width: 100%;
 	}
 	
+}
+
+@media screen and (min-width: 800px) {
+	
+	.tile:hover {
+		position: relative;
+		z-index: 2;
+		box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);		
+		transform: scale(1.05);	
+		-webkit-transform: scale(1.05);		
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	.tile {
+		max-width: 400px;
+	}
 }
 
 .tile-info {
@@ -38,21 +54,4 @@
 	background-color: white;
 	opacity: 1;
 	padding: 12px 20px 13px 20px;
-}
-
-@media screen and (min-width: 550px) {
-	.tile {
-		max-width: 450px;
-		padding: 0;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.tile:hover {
-		position: relative;
-		z-index: 2;
-		box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);		
-		transform: scale(1.05);	
-		-webkit-transform: scale(1.05);		
-	}
 }
