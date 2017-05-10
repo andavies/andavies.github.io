@@ -9,3 +9,15 @@
 	background-attachment: fixed;
 	padding: 80px 0 60px 0;	
 }
+
+@media screen and (max-width: 400px) {
+	.job-title {
+	    font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.job-title {
+	    font-size: 50px;
+	}
+}
