@@ -11,12 +11,7 @@ footer {
 	padding: 25px 10px;
 	display: flex;
 	flex-wrap: wrap;
-
-	.my-profiles,
-	.xkcd {
-		min-width: 400px;
-		flex-grow: 1;
-	}
+	justify-content: space-around;
 
 	ul {
 		margin: 25px 0;
@@ -25,6 +20,16 @@ footer {
 	li {
 		margin: 15px 0;
 	}	
+}
+
+.fun-feature {
+	img {
+		max-width: 100%;
+	}
+}
+
+.my-profiles {
+	min-width: 270px;
 }
 
 .main-footer {
