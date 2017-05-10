@@ -15,6 +15,8 @@
 
 	.sidebar-selector-heading {
 		text-align: center;
+		margin: 0;
+		padding: 15px;
 	}
 
 	ul {
@@ -29,6 +31,7 @@
 
 		width: 100%;
 		background-color: $muted_background_color;
+		box-shadow: -2px 3px 14px 1px rgba(0, 0, 0, 0.3);
 
 		ul {
 			display: flex;
@@ -47,8 +50,8 @@
 }
 
 
-/* at 750px, sidebar selector moves to side */
-@media screen and (min-width: 750px) {
+/* at 1041px, sidebar selector moves to side */
+@media screen and (min-width: 1041px) {
 	.featured-grid {
 		justify-content: flex-start;
 	}
@@ -59,7 +62,7 @@
 	}
 
 	.sidebar-selector {
-		width: 50%;
+		width: 30%;
 		background-color: $muted_background_color;
 		padding-left: 7%;
 		box-shadow: 5px -16px 20px 0 rgba(0, 0, 0, 0.3);
@@ -96,12 +99,6 @@
 
 	.tile {
 		padding: 0;
-	}
-}
-
-@media screen and (min-width: 1040px){
-	.sidebar-selector {
-		width: 30%;
 	}
 }
 
