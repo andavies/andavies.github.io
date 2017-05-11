@@ -10,6 +10,14 @@
 	padding: 120px 0 60px 0;	
 }
 
+/* disable background image on phones and tablets (for now). Too buggy */
+@media screen and (max-width: 1024px) {
+	.landing-feature {
+		background-image: none;
+		background-color: black;
+	}
+}
+
 @media screen and (max-width: 670px) {
 	.landing-feature {
 		padding-top: 150px;
