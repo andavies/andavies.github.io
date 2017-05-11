@@ -11,7 +11,11 @@
 		font-size: 12px;
 		font-weight: $normal;
 		font-style: italic;
-	}			
+	}	
+
+	.tag-wrapper {
+		justify-content: flex-start;
+	}		
 }
 
 .article-preview-heading {
