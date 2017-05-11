@@ -10,11 +10,11 @@ layout: master
 
 	{% for project in site.projects %}
 
-		<div>
+		<div class="project-grid-element">
 
 			<a href="{{ project.page_url }}">
 
-				<div class="tile" style="background-image: url('{{ project.image_url }}');">
+				<div class="tile">
 
 					<div class="tile-info">
 
@@ -23,6 +23,8 @@ layout: master
 						<span class="tile-description">{{ project.description }}</span>
 
 					</div>
+
+					<img src="{{ project.image_url }}" alt="">
 
 				</div>
 
