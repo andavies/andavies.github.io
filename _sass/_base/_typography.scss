@@ -58,6 +58,12 @@ a {
 	color: $muted_text_color;
 }
 
+@media screen and (max-width: 400px) {
+	.tile-description {
+		font-size: 14px;
+	}
+}
+
 .sidebar-selector-heading {
 	text-transform: uppercase;
 	font-weight: $normal;
