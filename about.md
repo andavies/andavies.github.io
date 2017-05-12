@@ -3,10 +3,16 @@ title: About Me
 layout: page
 ---
 
-I like to refer to myself simply as a programmer, but my current range of skills labels me more specifically as a web developer.
+I live in Wirral in the UK (or "on the Wirral" as the locals tend to say). This site is a place for me to show my work and let people know what I can do. I also like to write on a range of subjects: sometimes technical posts that help me to better understand a subject myself, sometimes information that helps my customers better understand what I do, and occasionally posts of more general interest.
 
-I live in Wirral in the UK (or "on the Wirral" as the locals tend to say). I make websites for small and medium-sized businesses, both locally, nationally and internationally. I also work as a freelance developer for hire on larger projects, either locally in the North West of England or remotely for companies anywhere in the world.
+### If you're a small business owner..
 
-This site is a place for me to show my work and let people know what I can do. I also like to write on a range of subjects: sometimes technical posts that help me to better understand a subject myself (I find writing about a subject helps me to clarify my own understanding), sometimes information that helps my customers better understand what I do, and occasionally posts of more general interest.
+I can make you a fast, modern, responsive website for your business at a competitive price. [Contact me]({{ site.url }}/contact.html) and we can discuss your project with no obligation.
 
-If you like my work and are interested in hiring me, see my [contact page]({{ site.baseurl }}/contact.html). 
+### If you're looking for a freelance programmer for your next project..
+
+Take a look at my [work]({{ site.url }}/projects.html), my [Github](https://github.com/andavies) and [StackOverflow](http://stackoverflow.com/users/story/5794667) profiles, and if you like what you see [contact me]({{ site.url }}/contact.html).
+
+### If you're looking to hire a developer for your company..
+
+I'm interested in fixed-term contract jobs in the Wirral area, or a remote position anywhere in the world.
