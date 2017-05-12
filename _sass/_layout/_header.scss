@@ -16,3 +16,9 @@
 		min-width: 60%;				
 	}
 }
+
+@media screen and (max-width: 670px) {
+	.main-header {
+		position: absolute;
+	}
+}
