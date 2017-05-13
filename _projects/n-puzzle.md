@@ -26,7 +26,7 @@ The program gives three options for the search method:
 
 Breadth-first and depth-first searches are in a sense 'blind', in that they don't know how close they are to the goal. They only 'know' what the goal state is, and they blindly search all possible paths until they find it. 
 
-A* search uses a heuristic to determine how close it is to the goal at any given state. This allows it to select the next move based on how close the resulting state is to the goal state. This saves time and space compared to 'uniformed search algorithms' such as breadth-first and depth-first, which treat all possible 'next states' to be equal.
+A* search uses a heuristic to determine how close it is to the goal at any given state. This allows it to select the next move based on how close the resulting state is to the goal state. This saves time and space compared to 'uninformed search algorithms' such as breadth-first and depth-first, which treat all possible 'next states' to be equal.
 
 The heuristic I've used for A* search is the Manhattan Distance Heuristic, which calculates the distance that each tile is from its goal position. The name of the heuristic alludes to the shortest path that a [taxicab could take in a city like Manhattan](https://en.wikipedia.org/wiki/Taxicab_geometry), where the roads form a grid pattern.
 
