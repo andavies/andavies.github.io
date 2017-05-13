@@ -3,7 +3,8 @@ layout: post
 title: "How much does a website cost?"
 date: 2016-12-12
 tags: ["Websites"]
-image_url: "https://placehold.it/230x130"
+small_image_url: "images/money-small.jpg"
+large_image_url: "images/money-large.jpg"
 featured: true
 ---
 
