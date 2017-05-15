@@ -6,6 +6,7 @@ tags: ["Websites"]
 small_image_url: "images/money-small.jpg"
 large_image_url: "images/money-large.jpg"
 featured: true
+featured_image_url: "images/money-500x400.jpg"
 ---
 
 
