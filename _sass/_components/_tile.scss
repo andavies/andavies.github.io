@@ -56,3 +56,14 @@
 	opacity: 1;
 	padding: 12px 20px 13px 20px;
 }
+
+@media screen and (max-width: 490px){
+	
+	.tile-description {
+		display: none;
+	}
+
+	.tile-info {
+		min-height: unset;
+	}
+}
