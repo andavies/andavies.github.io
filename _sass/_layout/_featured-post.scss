@@ -19,6 +19,18 @@
 }
 
 .featured-post-title {
-	line-height: 0.75em;
-    margin: 28px 0;
+	line-height: 1;
+    margin: 28px 2%;
+}
+
+@media screen and (max-width: 450px) {
+	.featured-post-title {
+	    font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.featured-post-title {
+	    font-size: 50px;
+	}
 }
