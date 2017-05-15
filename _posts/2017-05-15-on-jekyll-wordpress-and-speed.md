@@ -1,12 +1,17 @@
 ---
 layout: post
-title: "On Jekyll, Wordpress, and speed"
+title: "Jekyll and Wordpress"
+date: 2017-05-15
 tags: ["Jekyll", "Websites"]
-image_url: "https://placehold.it/230x130"
+small_image_url: "images/jekyll-logo-230x130.png"
+large_image_url: "images/jekyll-logo-730x400.png"
 featured: true
+featured_image_url: "images/jekyll-logo-500x400.png"
 ---
 
-I don't understand why so many people use Wordpress. Every tool has a strength and has its place, and the strength of Wordpress is that it allows people with little or no programming or web development skills to make a decent looking website. In that sense it's a great tool, and it's the reason why most of the world's websites run on Wordpress. 
+I don't understand why so many people use Wordpress. 
+
+Every tool has a strength and has its place, and the strength of Wordpress is that it allows people with little or no programming or web development skills to make a decent looking website. In that sense it's a great tool, and it's the reason why most of the world's websites run on Wordpress. 
 
 But the drawbacks are substantial. Wordpress sites tend to be slow and bloated, because it comes with features and therefore code that most people never use. And most Wordpress sites you see don't need such a bloated platform. They might display a few pages of information about a business, have a blog or a few videos, all of which can be done much better without Wordpress slowing it down. 
 
