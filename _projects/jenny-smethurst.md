@@ -6,6 +6,7 @@ description: "A single page website for Jenny Smethurst, a local self-employed m
 tags: ["websites"]
 layout: project
 featured: true
+feature_order: 4
 date: 2 November 2015
 type: "website"
 ---

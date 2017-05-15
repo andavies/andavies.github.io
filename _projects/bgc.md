@@ -6,6 +6,7 @@ description: "A wordpress theme for BG+C"
 tags: ["Websites"]
 layout: project
 featured: true
+feature_order: 1
 date: 1 February 2016
 type: "website"
 ---

@@ -6,6 +6,7 @@ description: "My personal website"
 tags: ["Jekyll"]
 layout: project
 featured: true
+feature_order: 3
 date: 13 May 2017
 type: "website"
 ---

@@ -68,7 +68,9 @@ layout: master
 
 	<div id="featured-websites" class="featured-grid hidden">
 
-		{% for project in site.projects %}
+		{% assign projects = site.projects | sort: 'feature_order' %}
+
+		{% for project in projects %}
 
 			{% if project.featured == true and project.type == 'website' %}
 

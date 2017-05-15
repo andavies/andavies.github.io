@@ -6,6 +6,7 @@ description: "The classroom activity maker"
 tags: ["C#", ".NET"]
 layout: project
 featured: true
+feature_order: 2
 date: 15 September 2016
 type: "website"
 ---
