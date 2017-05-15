@@ -2,7 +2,7 @@
 	text-align: center;
 
 	// http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
-	background-image: url($url + '/images/frogger.png');
+	background-image: url($url + '/images/sea.jpg');
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 	&::before {
 		content: "";
 		background: black;
-		opacity: 0.5;
+		opacity: 0.4;
 		top: 0;
 		left: 0;
 		bottom: 0;
