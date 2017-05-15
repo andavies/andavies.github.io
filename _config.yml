@@ -1,0 +1,12 @@
+name: Andy Davies | Web Developer
+
+collections:
+  projects:
+    output: true
+
+gems:
+  - jekyll-gist
+
+sass:
+  sass_dir: _sass
+  

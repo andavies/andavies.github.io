@@ -1,0 +1,45 @@
+---
+title: Projects | Andy Davies
+layout: master
+---
+
+
+<h1 class="page-title">Projects</h1>
+
+<div class="project-grid">
+
+	{% for project in site.projects %}
+
+		<div class="project-grid-element">
+
+			<a href="{{ project.page_url }}">
+
+				<div class="tile">
+
+					<div class="tile-info">
+
+						<h2 class="tile-title">{{ project.title }}</h2>
+
+						<span class="tile-description">{{ project.description }}</span>
+
+					</div>
+
+					<img src="{{ project.image_url }}" alt="">
+
+				</div>
+
+			</a>
+
+			<div class="tag-wrapper">
+
+				{% for tag in project.tags %}
+					<div class="tag">{{ tag }}</div>
+				{% endfor %}
+
+			</div>			
+
+		</div>
+
+	{% endfor %}
+
+</div>

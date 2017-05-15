@@ -1,0 +1,11 @@
+.project-grid {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 40px;
+	text-align: center;
+}
+
+.project-grid-element {
+	margin: 2%;
+}

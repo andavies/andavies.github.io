@@ -1,0 +1,57 @@
+.landing-feature {
+	text-align: center;
+
+	// http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
+	background-image: url($url + '/images/sea.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 120px 0 60px 0;
+}
+
+/* dark transparent effect */
+.landing-feature {
+	position: relative;
+
+	h1 {
+		filter: brightness(100%);
+	}
+
+	&::before {
+		content: "";
+		background: black;
+		opacity: 0.4;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+	}
+}
+
+/* disable background image on phones and tablets (for now). Too buggy */
+@media screen and (max-width: 1024px) {
+	.landing-feature {
+		background-image: none;
+		background-color: black;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.landing-feature {
+		padding-top: 150px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.job-title {
+	    font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.job-title {
+	    font-size: 50px;
+	}
+}

@@ -1,130 +1,169 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+title: Andy Davies | Web Developer
+layout: master
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">    
 
-    <script src="https://use.fontawesome.com/c83fbe533d.js"></script>
+<div class="landing-feature">
 
-    <title>Andy Davies</title>
-  </head>
+	<div>
 
-  <body>
+		<h1>
+			<span class="name">Andy Davies </span> 
+			<br>
+			<span class="job-title">Web Developer</span>
+		</h1>
 
-    <header>
-      <div class="container">
-        <h1>Andy Davies</h1>
-        <h2>A place for stuff I've made</h2>
+	</div>
 
-        <section id="downloads">
-          <a href="https://github.com/andavies" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+</div>
 
-    <div class="container">
-        <section id="main_content">
-	        <h3>
-				About this site
-			</h3>
 
-			<p>For now this is where I'll put things that I make. I may add other stuff later (apart from software) but for now this is it.</p>
-        </section>
+<section class="featured-work-grid">
+	
+	<div class="sidebar-selector">
+		
+		<h2 class="sidebar-selector-heading">Featured Work</h2>
+		
+		<ul>
+			<li class="tab active" data-reference="featured-programming">
+				<h3 class="tab-heading">Programming</h3>
+			</li>
 
-        <section id="my_other_profiles">
-        	<h3>
-    			My other profiles
-        	</h3>
+			<li class="tab" data-reference="featured-websites">
+				<h3 class="tab-heading">Websites</h3>
+			</li>
 
-        	<a href="http://stackoverflow.com/users/story/5794667">
-	        	<p>
-	        		<i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i>Stack Overflow       		
-	        	</p>
-	        </a>
-	        <a href="https://twitter.com/1andydavies1">
-	        	<p>
-	        		<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>Twitter
-	        	</p>
-	        </a>
+			<li class="tab" data-reference="featured-writing">
+				<h3 class="tab-heading">Writing</h3>
+			</li>
+		</ul>
 
-            <hr>
+	</div>
 
-        </section>
+	<div id="featured-programming" class="featured-grid">
 
-        
+		{% for project in site.projects %}
 
-        <section class="project">
-            <time>24 November 2016</time>
-            <a href="http://andy-davies.me">
-                <h3>Freelancing site</h3>
-            </a>
+			{% if project.featured == true and project.type == 'programming' %}
 
-            <p>An attempt to make some money</p>
+				<a href="{{ project.page_url }}">
+					<div class="tile">
 
-            <hr>
-        </section>
+						<div class="tile-info">
+							<h4 class="tile-title">{{ project.title }}</h4>
+							<span class="tile-description">{{ project.description }}</span>
+						</div>
 
-        <section class="project">
-        	<time>23 May 2016</time>
-        	<a href="https://github.com/andavies/phpmyadmin/commit/786786d6026f74352d20e2cb1ef8b6a0a718d475">
-        		<h3>phpMyAdmin</h3>
-        	</a>
+						<img src="{{ project.image_url }}">
 
-        	<p>My first (very modest) open source contribution</p>
+					</div>
+				</a>
 
-        	<hr>
-        </section>
+			{% endif %}
 
-        <section class="project">
-        	<time>1 May 2016</time>
-        	<a href="https://github.com/andavies/Front-end-nanodegree">
-        		<h3>Front-end web developer nanodegree</h3>
-        	</a>
-        	<p>Code from all 6 projects of the <a href="https://udacity.com">nanodegree</a></p>
+		{% endfor %}
+	
+	</div>	
 
-        	<img src="images/udacity-logo.png">
-        	<hr>
-        </section>
+	<div id="featured-websites" class="featured-grid hidden">
 
-        <section class="project">
-        	<time>1 April 2016</time>
-        	<a href="https://andavies.github.io/map-app/">
-                <h3>Map App</h3>
-            </a>
+		{% assign projects = site.projects | sort: 'feature_order' %}
 
-        	<p>An integration of Google Maps and UK Police stop-search data</p>
+		{% for project in projects %}
 
-        	<img src="images/map.png">
-        	<hr>
-        </section>
+			{% if project.featured == true and project.type == 'website' %}
 
-        <section class="project">
-        	<time>1 February 2016</time>
-        	<a href="https://andavies.github.io/frogger/">
-                <h3>Frogger</h3>
-            </a>
+				<a href="{{ project.page_url }}">
+					<div class="tile">
 
-        	<p>Clone of the classic arcade game</p>
+						<div class="tile-info">
+							<h4 class="tile-title">{{ project.title }}</h4>
+							<span class="tile-description">{{ project.description }}</span>
+						</div>
 
-        	<img src="images/frogger.png">
-        	<hr>
-        </section>
+						<img src="{{ project.image_url }}">
 
-        <section class="project">
-        	<time>23 December 2015</time>
-        	<a href="https://github.com/andavies/CS50">
-        		<h3>CS50</h3>
-        	</a>
+					</div>
+				</a>
 
-        	<p>My completed problem sets and final project from <a href="https://cs50.harvard.edu">CS50</a></p>
+			{% endif %}
 
-        	<img src="images/CS50-logo.jpg">
-        	<hr>
-        </section>
-    </div>
-    
-  </body>
-</html>
+		{% endfor %}
+	
+	</div>
+
+	<div id="featured-writing" class="featured-grid hidden">
+
+		{% for post in site.posts %}
+
+			{% if post.featured == true %}
+
+				<a href="{{ post.url }}">
+					<div class="tile">
+
+						<div class="tile-info">
+							<h4 class="tile-description">{{ post.title }}</h4>
+						</div>
+
+						<img src="{{ post.featured_image_url }}">
+						
+					</div>
+				</a>
+
+			{% endif %}
+
+		{% endfor %}
+	
+	</div>
+
+</section>
+
+
+<section class="front-page-blog">
+
+	<h2 class="section-title">Latest blog post</h2>
+			
+	{% for post in site.posts limit:1 %}
+
+		<article class="featured-post">
+		
+			<h3 class="featured-post-title">{{ post.title }}</h3>
+			<img src="{{ site.url }}/{{ post.featured_image_url }}">
+			<p>{{ post.excerpt }}</p>
+
+			<div class="buttons-wrapper">
+				<a class="button" href="{{ post.url }}">Read now</a>
+			</div>						
+
+		</article>
+
+	{% endfor %}	
+
+</section>
+
+
+<section class="front-page-about">
+
+	<div>
+		<img src="images/profile-300x300.jpg">
+	</div>
+
+	<div class="about-me-info">
+		<h2 class="about-me-heading">About me</h2>
+
+		<p>I'm a Web Developer from Wirral, England.</p>
+
+		<ul>
+			<li>I make websites for small and medium-sized businesses on a freelance basis.</li>
+			<li>I'm available for freelance and contract work on development projects.</li>
+			<li>I can work remotely with companies from all over the world.</li>
+		</ul>
+
+		<div class="buttons-wrapper">
+			<a href="{{ site.url }}/contact.html" class="button">Hire me</a>	
+			<a href="{{ site.url }}/about.html" class="button">Find out more</a>
+		</div>				
+	</div>		
+
+</section>	

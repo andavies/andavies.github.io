@@ -1,0 +1,69 @@
+.tile {
+
+	box-sizing: border-box;
+	padding: 5%;
+
+	/* hover effect from hover.css by Ian Lunn
+	 * https://github.com/IanLunn/Hover/blob/master/css/hover.css
+	 * minor modifications by me
+	 */
+
+	// TODO: use auto-prefixer
+
+	
+	display: inline-block;
+	vertical-align: middle;	
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;	
+	transition-duration: 0.3s;	
+	transition-property: box-shadow, transform;
+	z-index: 0;
+
+	-webkit-transform: perspective(1px) translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	
+
+	img {
+		max-width: 100%;
+		vertical-align: top;
+	}
+	
+}
+
+@media screen and (min-width: 1041px) {
+	
+	.tile:hover {
+		position: relative;
+		z-index: 2;
+		box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);		
+		transform: scale(1.05);	
+		-webkit-transform: scale(1.05);		
+	}
+}
+
+@media screen and (min-width: 550px) {
+	.tile {
+		max-width: 400px;
+	}
+}
+
+.tile-info {
+	position: absolute;
+	width: 40%;
+	min-height: 40%;
+	background-color: white;
+	opacity: 1;
+	padding: 12px 20px 13px 20px;
+}
+
+@media screen and (max-width: 490px){
+	
+	.tile-description {
+		display: none;
+	}
+
+	.tile-info {
+		min-height: unset;
+	}
+}

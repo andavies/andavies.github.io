@@ -1,0 +1,17 @@
+.front-page-about {
+
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 50px 25px;	
+	background-color: $muted_background_color;
+
+	img {
+		border-radius: 50%;
+	}
+
+	li {
+		padding: 5px 0;
+	}
+}
