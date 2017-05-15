@@ -2,8 +2,10 @@
 layout: post
 title: "Scopes and Closures"
 tags: ["Javascript", "Technical"]
-image_url: "https://placehold.it/230x130"
+small_image_url: "images/js-logo.svg"
+large_image_url: "images/js-logo.svg"
 featured: true
+featured_image_url: "images/js-logo-500x400.png"
 ---
 
 There is more than one meaning of the word 'scope' when it comes to programming. 
@@ -44,10 +46,11 @@ We also prevent other areas of the program from messing with variables my mistak
 
 Large programs have a large number of variables. If all variables were in the global scope we would quickly run out of meaningful variable names, and we might forget that we've already used a name elsewhere. The practice of adding too many variables to the global scope in this way is known as *polluting the global scope*.
 
-
+<!---
 ## Execution context
 
 To follow...
+-->
 
 
 
