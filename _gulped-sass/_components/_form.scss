@@ -13,12 +13,18 @@
             align-items: center;
 
     input, 
-    textarea, 
-    button {
+    textarea {
 	    margin: 10px 0;
 	    width: 100%;
 	    text-align: center;
 	    font-family: $font;
+	}
+
+	/* reset default styles */
+	button {
+		background-color: inherit;
+    	border: inherit;
+    	font-family: inherit;
 	}
 
 	textarea {

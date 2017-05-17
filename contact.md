@@ -10,5 +10,7 @@ layout: page
   <input type="tel" name="telephone" placeholder="Your phone number (optional)">
   <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
   <textarea name="message" placeholder="Your message"></textarea>
-  <button class="button" type="submit">Send</button>
+
+  <!--http://stackoverflow.com/questions/35464067/flexbox-not-working-on-button-element-in-some-browsers/35466231 -->
+  <button type="submit"><span class="button">send</span></button>
 </form>
