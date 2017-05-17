@@ -1,0 +1,145 @@
+// (remember to change the <link> in <head> as well (if you change the font variables))
+$font: 'Source Sans Pro';
+$light: 300;
+$normal: 400;
+$bold: 700;
+
+body {
+	font: $normal 16px $font, Helvetica, Arial, Sans-Serif;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading_color;
+}
+
+p {
+	color: $text_color;
+	line-height: 1.45;
+}
+
+a {
+	text-decoration: none;
+	color: $text_color;
+
+	&:hover {
+		color: $highlight_color;
+	}
+}
+
+.header-title {
+	text-transform: uppercase;
+	font-size: 48px;
+}
+
+.main-header {
+	nav {
+		@include small-caps-label(black);
+	}
+}
+
+.name {
+	@include small-caps-label(white);
+	@include antialiase;
+}
+
+.job-title {
+	@include blue-caps-title;
+	@include antialiase;
+}
+
+.tile-title {
+	@include small-caps-label(black);
+}
+
+.tile-description {
+	font-size: 16px;
+	font-weight: $normal;
+	color: $muted_text_color;
+}
+
+@media screen and (max-width: 400px) {
+	.tile-description {
+		font-size: 14px;
+	}
+}
+
+.sidebar-selector-heading {
+	text-transform: uppercase;
+	font-weight: $normal;
+}
+
+.tab-heading {
+	font-weight: $normal;
+}
+
+.front-page-blog {
+	.section-title {
+		@include small-caps-label(black);
+	}
+}
+
+.featured-post {
+	p {
+		font-style: italic;
+	    font-weight: $light;
+	    color: $muted_text_color;
+	    font-size: 16px;
+	}
+}
+
+.about-me-heading {
+	@include small-caps-label(black);
+}
+
+.about-me-info {
+	p {
+		font-size: 22px;
+		font-style: italic;
+		font-weight: $light;
+	}
+
+	ul {
+		font-size: 18px;
+		font-weight: $light;
+	}
+}
+
+.profiles-heading {
+	@include small-caps-label(white);
+}
+
+.page-title {
+	@include blue-caps-title;
+}
+
+.featured-post-title {
+	@include blue-caps-title;
+}
+
+.article-title {
+	font-size: 72px;
+	font-weight: $light;
+}
+
+.article-description {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: $light;
+}
+
+.article-date {
+	@include small-caps-label(black);
+}
+
+.article-preview-link {
+	@include small-caps-label(black);
+}
+
+.breadcrumbs {
+	@include small-caps-label(black);
+}
+
+.tag {
+	@include small-caps-label($highlight_color);
+}

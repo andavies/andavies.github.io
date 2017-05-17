@@ -1,0 +1,15 @@
+.article-header {
+	text-align: center;		
+
+	hr {
+		color: $muted_background_color;
+		margin: 30px;
+	}
+}
+
+.article-banner {
+	height: 400px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

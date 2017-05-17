@@ -1,0 +1,17 @@
+.tag {
+	background-color: $muted_background_color;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+
+.tag-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin: 8px 0;	
+}

@@ -1,0 +1,10 @@
+.breadcrumbs {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin: 20px;	
+
+	span {
+		color: $highlight_color;
+	}	
+}

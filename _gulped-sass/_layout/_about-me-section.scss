@@ -1,0 +1,23 @@
+.front-page-about {
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	text-align: center;
+	padding: 50px 25px;	
+	background-color: $muted_background_color;
+
+	img {
+		border-radius: 50%;
+	}
+
+	li {
+		padding: 5px 0;
+	}
+}

@@ -1,0 +1,15 @@
+.project-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin: 40px;
+	text-align: center;
+}
+
+.project-grid-element {
+	margin: 25px;
+}

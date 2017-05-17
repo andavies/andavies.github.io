@@ -1,0 +1,22 @@
+@mixin blue-caps-title() {
+	color: $highlight_color;
+	font-size: 64px;
+	font-weight: $light;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+@mixin small-caps-label($color) {
+	font-size: 13px;
+	font-weight: $bold;
+	letter-spacing: .19em;
+	text-transform: uppercase;
+	color: $color;
+}
+
+@mixin antialiase() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
+	/* http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ */
+}

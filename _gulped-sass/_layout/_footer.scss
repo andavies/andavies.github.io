@@ -1,0 +1,45 @@
+footer {
+	background-color: black;
+
+	a, p {
+		color: white;
+	}
+}
+
+.sub-footer {
+	text-align: center;	
+	padding: 25px 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+
+	ul {
+		margin: 25px 0;
+	}
+
+	li {
+		margin: 15px 0;
+	}	
+}
+
+.fun-feature {
+	img {
+		max-width: 100%;
+	}
+}
+
+.my-profiles {
+	min-width: 270px;
+}
+
+.main-footer {
+	p {
+		margin: 0 15px;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+}

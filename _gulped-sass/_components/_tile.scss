@@ -1,0 +1,70 @@
+.tile {
+
+	-webkit-box-sizing: border-box;
+
+	        box-sizing: border-box;
+	padding: 5%;
+
+	/* hover effect from hover.css by Ian Lunn
+	 * https://github.com/IanLunn/Hover/blob/master/css/hover.css
+	 * minor modifications by me
+	 */
+
+	display: inline-block;
+	vertical-align: middle;	
+	-webkit-transform: perspective(1px) translateZ(0);	
+	        transform: perspective(1px) translateZ(0);
+	-webkit-box-shadow: 0 0 1px transparent;
+	        box-shadow: 0 0 1px transparent;	
+	-webkit-transition-duration: 0.3s;	
+	        transition-duration: 0.3s;	
+	-webkit-transition-property: -webkit-box-shadow, -webkit-transform;	
+	transition-property: -webkit-box-shadow, -webkit-transform;	
+	transition-property: box-shadow, transform;	
+	transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+	z-index: 0;
+
+	img {
+		max-width: 100%;
+		vertical-align: top;
+	}	
+}
+
+@media screen and (min-width: 1041px) {
+	
+	.tile:hover {
+		position: relative;
+		z-index: 2;
+		-webkit-box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);
+		        box-shadow: 5px 6px 8px 2px rgba(0, 0, 0, 0.3);		
+		-webkit-transform: scale(1.05);		
+		        transform: scale(1.05);	
+				
+	}
+}
+
+@media screen and (min-width: 550px) {
+	.tile {
+		max-width: 400px;
+	}
+}
+
+.tile-info {
+	position: absolute;
+	width: 40%;
+	min-height: 40%;
+	background-color: white;
+	opacity: 1;
+	padding: 12px 20px 13px 20px;
+}
+
+@media screen and (max-width: 490px){
+	
+	.tile-description {
+		display: none;
+	}
+
+	.tile-info {
+		min-height: unset;
+	}
+}
