@@ -20,6 +20,14 @@
     	font-family: inherit;
 	}
 
+	/* 
+	 * overridden by min-height elsewhere, but fixes bug in IE11
+     * http://stackoverflow.com/questions/19371626/flexbox-not-centering-vertically-in-ie 
+     */
+	.button {
+		height: 1px;
+	}
+
 	textarea {
 		min-height: 100px;
 	}
