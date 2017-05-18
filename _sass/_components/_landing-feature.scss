@@ -5,16 +5,14 @@
 	background-image: url($url + '/images/sea.jpg');
 
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-repeat: no-repeat;	
 	padding: 120px 0 60px 0;
 }
 
-/* disable background image on phones and tablets (for now). Too buggy */
-@media screen and (max-width: 1024px) {
+/* fixed background image only on desktop */
+@media screen and (min-width: 1024px) {
 	.landing-feature {
-		background-image: none;
-		background-color: black;
+		background-attachment: fixed;
 	}
 }
 
