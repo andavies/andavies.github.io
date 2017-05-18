@@ -7,7 +7,7 @@
 }*/
 
 // http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
-$url: "{{ site.url }}";
+$url: "{{ site.baseurl }}";
 
 @import '_abstracts/colors';
 @import '_abstracts/mixins';
