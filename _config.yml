@@ -9,5 +9,6 @@ gems:
 
 sass:
   sass_dir: _gulped-sass
+  style: compressed
   
 exclude: ["gulpfile.js"]
