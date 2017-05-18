@@ -10,6 +10,12 @@
 .article-banner {
 	height: 400px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
+}
+
+/* only have fixed background on desktop */
+@media screen and (min-width: 1024px) {
+	.article-banner {
+		background-attachment: fixed;
+	}
 }
