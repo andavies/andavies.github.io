@@ -7,6 +7,7 @@ small_image_url: "images/jekyll-logo-230x130.png"
 large_image_url: "images/jekyll-logo-730x400.png"
 featured: true
 featured_image_url: "images/jekyll-logo-500x400.png"
+latest_post_image_url: "images/jekyll-logo-200x160.png"
 ---
 
 I don't understand why so many people use Wordpress. 
