@@ -16,10 +16,12 @@ layout: master
 			<div>
 				projects <span>|</span> 
 			</div>			
-
-			{% for tag in page.tags %}
-				<div class="tag"> {{ tag }} </div>
-			{% endfor %}
+			
+			<div class="tag-wrapper">
+				{% for tag in page.tags %}
+					<div class="tag"> {{ tag }} </div>
+				{% endfor %}
+			</div>			
 
 		</div>
 
