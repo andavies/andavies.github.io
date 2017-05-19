@@ -1,6 +1,6 @@
 var gulp = require('gulp');
-var source = '_sass/**/*.scss';
-var destination = '_gulped-sass';
+var source = '_input-sass/**/*.scss';
+var destination = '_gulp-generated-files/_sass';
 
 gulp.task('default', function() {
 	gulp.watch(source, ['autoprefixer']);
