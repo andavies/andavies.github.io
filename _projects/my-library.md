@@ -9,7 +9,7 @@ featured: true
 type: "programming"
 ---
 
-This was the first project I ever made, back in 2015. It was the final project from Harvard University's superb programming course, [CS50](https://cs50.harvard.edu/). If you're a programmer at any level I would encourage you to have a look at that course. It's the ideal course for beginners, and certainly if you don't have a degree in computer science it can teach you plenty of fundamental ideas in programming that you may have missed.
+This was the first project I ever made, back in 2015. It was the final project from Harvard University's superb programming course, [CS50](https://cs50.harvard.edu/). If you're a programmer at any level I would encourage you to have a look at that course. It's the ideal course for beginners, and certainly if you don't have a degree in computer science it can teach you plenty of fundamental ideas in programming that you may have missed. You can read my [blog post on CS50 here.]({{ site.baseurl }}{% post_url 2017-02-13-I-took-CS50 %})
 
 MyLibrary is a web application that allows you to share your book collection with others. You can search the book collections of other users and borrow them, and lend your books to other users. It's only a prototype - it's never gone live - but the idea eventually is that you join groups; whether they be your workplace, street or book club. It effectively adds everyone's bookshelves together in a giant lending library. If you want to steal the idea, feel free to [fork the project on Github](https://github.com/andavies/myLibrary) (and send me 10% of your profits).
 
