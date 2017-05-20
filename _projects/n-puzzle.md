@@ -14,9 +14,9 @@ This project is my first venture into the world of Artificial Intelligence. It i
 
 ### Warning: non-technical readers may doze off from here
 
-The real utility of the project is to learn about the efficiency of search algorithms in terms of time and space complexity. My companion for this project was the canonical text for AI: *Artificial Intelligence: A Modern Approach*, by Stuart Russell and Peter Norvig.
+The real goal of the project was to learn the fundamentals of AI, in particular to explore the efficiency of search algorithms in terms of time and space complexity. My companion for this project was the canonical text for AI: *Artificial Intelligence: A Modern Approach*, by Stuart Russell and Peter Norvig.
 
-Given any n-puzzle, there are at most four possibilities for the first move: sliding a tile up, down, left, or right. (If the empty 'tile' is at the edge of the grid not all options are possible.) The program work by searching different paths through the 'search space' of possible moves until it reaches a point where the puzzle is complete (the grid is ordered). Once it reaches the goal state, it returns the path it took to reach it.
+Given any n-puzzle, there are at most four possibilities for the first move: sliding a tile up, down, left, or right. (If the empty 'tile' is at the edge of the grid not all options are possible.) The program navigates different paths through the 'search space' of possible moves until it reaches a point where the puzzle is complete (the grid is ordered). Once it reaches the goal state, it returns the path it took to reach it.
 
 The program gives three options for the search method:
 
