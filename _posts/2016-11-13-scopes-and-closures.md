@@ -12,7 +12,7 @@ There is more than one meaning of the word 'scope' when it comes to programming.
 
 ## Lexical Scope
 
-One use of the word 'scope', is in 'lexical scope'. This refers to regions in your code where you can access a variable.
+One use of the word 'scope' is in 'lexical scope'. This refers to regions in your code where you can access a variable.
 
 When you declare a new variable in a Javascript file, and the variable is not enclosed within a function, the variable is accessible from anywhere in the program, and is said to be in the 'global scope'.
 
@@ -27,7 +27,7 @@ Note that lexical scope in Javascript is constrained between the curly braces of
 
 ## The 'var' keyword
 
-The Javascript keywords 'var' is used, as in the above example, to declare a variable. However, Javascript - unlike other languages - allows you to assign a value to a variable that you have never declared. **Variables that are assigned without the keyword 'var' are added to the global scope**. For example:
+The Javascript keyword 'var' is used, as in the above example, to declare a variable. However, Javascript - unlike other languages - allows you to assign a value to a variable that you have never declared. **Variables that are assigned without the keyword 'var' are added to the global scope**. For example:
 
 {% gist andavies/835e5422521d3d2dbf8257203f69fe8b %}
 
@@ -42,7 +42,7 @@ Using the 'var' keyword in this way (or rather, not using it) is bad practice, b
 
 Constraining scopes in this way allows us to understand our programs more easily, and prevents us from making mistakes. By *encapsulating* variables within functions, we are making them easier to understand because we can concentrate on just that part of the program without worrying about what other parts of the program are doing to those variables. 
 
-We also prevent other areas of the program from messing with variables my mistake. For example, a common name for a variable might be 'sum'. If 'sum' was in the global scope we'd only be able to have one 'sum'. Any attempts to re-use sum would overwrite its existing value. But by using scopes we can have many 'sum' variables, each *encapsulated* from the rest. 
+We also prevent other areas of the program from messing with variables by mistake. For example, a common name for a variable might be 'sum'. If 'sum' was in the global scope we'd only be able to have one 'sum'. Any attempts to re-use sum would overwrite its existing value. But by using scopes we can have many 'sum' variables, each *encapsulated* from the rest. 
 
 Large programs have a large number of variables. If all variables were in the global scope we would quickly run out of meaningful variable names, and we might forget that we've already used a name elsewhere. The practice of adding too many variables to the global scope in this way is known as *polluting the global scope*.
 
@@ -51,6 +51,8 @@ Large programs have a large number of variables. If all variables were in the gl
 
 To follow...
 -->
+
+*This post is the first of a series of posts intended to explain basic programming concepts to beginners, in language as straightforward as possible. If you liked it or found it helpful, let me know on [Twitter](https://twitter.com/1andydavies1).*
 
 
 
