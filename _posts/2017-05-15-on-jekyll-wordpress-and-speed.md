@@ -4,7 +4,7 @@ title: "Jekyll and Wordpress"
 date: 2017-05-15
 tags: ["Jekyll", "Websites"]
 small_image_url: "images/jekyll-logo-230x130.png"
-large_image_url: "images/jekyll-logo-730x400.png"
+large_image_url: "images/tools-640x426.jpg"
 featured: true
 featured_image_url: "images/jekyll-logo-500x400.png"
 latest_post_image_url: "images/jekyll-logo-200x160.png"
