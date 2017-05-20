@@ -10,7 +10,7 @@ date: 1 February 2016
 type: "programming"
 ---
 
-<a href="https://andavies.github.io/frogger/">link to project</a>
+[Play the game here](https://andavies.github.io/frogger/)
 
 The arcade game Frogger was released in 1981, and has since become a videogame classic. It even made an [appearance on Seinfeld](https://www.youtube.com/watch?v=a-FbktgqCqY). This remake of Frogger was a project for [Udacity's Front End Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001). The game is programmed in Javascript and rendered using HTML5 Canvas. You can see the source code [here](https://github.com/andavies/frogger).
 
@@ -24,13 +24,13 @@ The HTML5 Canvas API allows images to be 'painted' onto a canvas element in a we
 
 #### Object orientation
 
-Object-oriented programming is a way of organising your code so that variables and functions are grouped together in an 'object'. An 'object' is simply a concept or an entity related to whatever your program is intended to do. In the example of Frogger, each sprite (the player character, the 'enemies' and the gems) is an object, and the variables for that object (eg. position, displayed image) are grouped together, as are the functions (called 'methods' in object-oriented laguage) (eg. movement, collision detection).
+Object-oriented programming is a way of organising your code so that variables and functions are grouped together in an 'object'. An 'object' is simply a concept or an entity related to whatever your program is intended to do. In the example of Frogger, each sprite (the player character, the 'enemies' and the gems) is an object, and the variables for that object (eg. position, displayed image) are grouped together, as are the functions (called 'methods' in object-oriented laguage), for example movement and collision detection.
 
 {% gist andavies/a78b667d96d7f1510ef8ef25aa933935 %}
 
 In the above example, an Enemy object is defined, and the variables for coordinates and speed are grouped within that object.
 
-By using objects, we can also share identical methods between different objects. For example, although different Enemy objects have different position coordinates and different speeds, they all have the same 'render' method (the function that repeatedly draws the object on the canvas) and the same sprite image (an image of a giant ladybird). We can use a property that is built in to all Javascript objects, called 'prototype'.
+By using objects, we can also share identical methods between different objects. For example, although different Enemy objects have different position coordinates and different speeds, they all have the same 'render' method (the function that repeatedly draws the object on the canvas) and the same sprite image (an image of a giant ladybird). We can use a property that is built in to all Javascript objects - called 'prototype' - to share these methods.
 
 {% gist andavies/3be4905f500baf0955a14b9791c5a6a7 %}
 
