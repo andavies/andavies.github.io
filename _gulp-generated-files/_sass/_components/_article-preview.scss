@@ -1,6 +1,6 @@
 .article-preview {
 	padding-bottom: 35px;
-	border-bottom: 1px solid $muted_background_color;
+	border-bottom: 1px solid $muted_text_color;
 	max-width: 700px;
 
 	&:last-child {
@@ -18,7 +18,11 @@
 		    -ms-flex-pack: start;
 		        justify-content: flex-start;
 		margin: 8px 0;
-	}		
+	}	
+
+	.tag {
+		margin-right: 5px;
+	}	
 }
 
 .article-preview-heading {
@@ -51,12 +55,17 @@
 }
 
 @media (max-width: 580px){
+	.tag-wrapper {
+		display: none;
+	}
+
 	.article-preview-excerpt {
 		img {
 			display: none;
 		}
 		div {
 			padding-left: 0;
+			padding-top: 0;
 		}		
 	}
 }
