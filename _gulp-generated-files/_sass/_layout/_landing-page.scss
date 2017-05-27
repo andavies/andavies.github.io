@@ -1,0 +1,39 @@
+.landing-page {
+	.landing-feature {
+		h1 {
+			color: $highlight_color;
+			text-transform: uppercase;
+			font-size: 52px;
+			font-weight: $light;
+		}		
+	}
+}
+
+.landing-page-intro {
+	p {
+		text-align: center;
+		font-size: 28px;
+		color:	$muted_text_color;
+		font-weight: $light;
+		padding: 5%;
+	}
+}
+
+.product {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	text-align: center;
+
+	div {
+		max-width: 50%;
+	}
+
+	ul {
+		text-align: left;
+	}
+}
