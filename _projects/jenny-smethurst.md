@@ -1,5 +1,6 @@
 ---
 title: "Jenny Smethurst"
+content_meta: "Jenny is a music teacher from Wirral, Merseyside. She hired me to develop a new website to advertise her business."
 image_url: "images/jenny-500x400.jpg"
 page_url: "/projects/jenny-smethurst"
 description: "A single page website for Jenny Smethurst, a local self-employed music teacher"

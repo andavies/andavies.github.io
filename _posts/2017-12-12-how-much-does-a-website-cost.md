@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How much does a website cost?"
+content_meta: "For small businesses wanting a new website, hiring a web developer can be a confusing process. Andy Davies explains why you need not pay over the odds."
 date: 2016-12-12
 tags: ["Websites"]
 small_image_url: "images/money-small.jpg"

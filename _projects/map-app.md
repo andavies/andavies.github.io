@@ -1,5 +1,6 @@
 ---
 title: "Map App"
+content_meta: "Map App integrates police stop-and-search data with the Google Maps API, to create an interactive map showing recent stop-searches in your area."
 image_url: "images/map.png"
 page_url: "/projects/map-app"
 description: "Interactive map showing police stop-search data"

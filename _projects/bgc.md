@@ -1,5 +1,6 @@
 ---
 title: "Broadcast Graphics and Control"
+content_meta: "BG+C hired me to style a Wordpress theme for their new business website."
 image_url: "images/bgc-500x400.jpg"
 page_url: "/projects/bgc"
 description: "A wordpress theme for BG+C"
