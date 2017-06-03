@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Scopes and Closures"
+title: "Scopes and Closures | Andy Davies"
+short_title: "Scopes and Closures"
 content_meta: "In the first of a series of posts on learning to code, Andy Davies writes about the basic concepts of scopes and closures in Javascript."
 tags: ["Javascript", "Technical"]
 small_image_url: "images/js-logo.svg"

@@ -1,5 +1,6 @@
 ---
 title: About Me | Andy Davies
+short_title: About me
 layout: page
 content_meta: "Andy Davies: a web and software developer from Merseyside, UK. I'm available as a freelancer for hire and I make websites for small businesses."
 ---

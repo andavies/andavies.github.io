@@ -1,5 +1,6 @@
 ---
-title: "Jenny Smethurst"
+title: "Jenny Smethurst Music Tuition | A website by Andy Davies"
+short_title: "Jenny Smethurst"
 content_meta: "Jenny is a music teacher from Wirral, Merseyside. She hired me to develop a new website to advertise her business."
 image_url: "images/jenny-500x400.jpg"
 page_url: "/projects/jenny-smethurst"

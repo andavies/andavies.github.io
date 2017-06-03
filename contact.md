@@ -1,5 +1,6 @@
 ---
 title: Contact | Andy Davies
+short_title: Contact Me
 layout: page
 content_meta: "If you're looking for a freelance web developer for your next project, or a website for your business, contact me for a free consultation and quote."
 ---
