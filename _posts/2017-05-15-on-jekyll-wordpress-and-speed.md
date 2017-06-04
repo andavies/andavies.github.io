@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Jekyll and Wordpress"
+title: "Jekyll and Wordpress | Andy Davies"
+short_title: "Jekyll and Wordpress"
+content_meta: "For web developers making a simple website, Wordpress is often unnecessary when faster and simpler alternatives like Jekyll are available."
 date: 2017-05-15
 tags: ["Jekyll", "Websites"]
 small_image_url: "images/jekyll-logo-230x130.png"

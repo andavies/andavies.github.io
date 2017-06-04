@@ -1,5 +1,7 @@
 ---
-title: "This website"
+title: "andydavi.es | A fast portfolio website by Andy Davies, Web Developer"
+short_title: "This website"
+content_meta: "My website is made using Jekyll, SASS and old-fashioned plain Javascript. It's a static site to showcase my blog and portfolio."
 image_url: "images/frog-500x400.jpg"
 page_url: "/projects/this-website"
 description: "My personal website"

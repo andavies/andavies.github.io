@@ -1,5 +1,7 @@
 ---
-title: "Wordwall"
+title: "Wordwall | Andy Davies, Software Developer"
+short_title: "Wordwall"
+content_meta: "Wordwall hired me as a software developer to work on their web application for teachers."
 image_url: "images/wordwall-500x400.png"
 page_url: "/projects/wordwall"
 description: "The classroom activity maker"

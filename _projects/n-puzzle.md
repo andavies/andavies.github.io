@@ -1,5 +1,7 @@
 ---
-title: "n-puzzle"
+title: "n-puzzle | An artifical intelligence program in Python by Andy Davies"
+short_title: "n-puzzle"
+content_meta: "A program written in Python that solves any given n-puzzle."
 image_url: "images/westworld.png"
 page_url: "/projects/n-puzzle"
 description: "A program that solves any n-puzzle"

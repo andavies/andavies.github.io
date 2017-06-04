@@ -1,6 +1,7 @@
 ---
-title: Andy Davies | Web Developer
+title: Andy Davies | Freelance Web Developer from Merseyside, UK
 layout: master
+content_meta: "Andy Davies is a freelance web developer and software developer from Wirral, Merseyside in North West UK. This is Andy's website, portfolio and blog."
 ---
 
 
@@ -51,7 +52,7 @@ layout: master
 					<div class="tile">
 
 						<div class="tile-info">
-							<h4 class="tile-title">{{ project.title }}</h4>
+							<h4 class="tile-title">{{ project.short_title }}</h4>
 							<span class="tile-description">{{ project.description }}</span>
 						</div>
 
@@ -78,7 +79,7 @@ layout: master
 					<div class="tile">
 
 						<div class="tile-info">
-							<h4 class="tile-title">{{ project.title }}</h4>
+							<h4 class="tile-title">{{ project.short_title }}</h4>
 							<span class="tile-description">{{ project.description }}</span>
 						</div>
 
@@ -103,7 +104,7 @@ layout: master
 					<div class="tile">
 
 						<div class="tile-info">
-							<h4 class="tile-description">{{ post.title }}</h4>
+							<h4 class="tile-description">{{ post.short_title }}</h4>
 						</div>
 
 						<img src="{{ post.featured_image_url }}" alt="blog post image">
@@ -128,7 +129,7 @@ layout: master
 
 		<article class="featured-post">
 		
-			<h3 class="featured-post-title">{{ post.title }}</h3>
+			<h3 class="featured-post-title">{{ post.short_title }}</h3>
 			<img src="{{ site.baseurl }}/{{ post.latest_post_image_url }}" alt="blog post image">
 			<p>{{ post.excerpt }}</p>
 

@@ -1,5 +1,7 @@
 ---
-title: "Frogger"
+title: "Frogger | A Javascript project by Andy Davies, Web Developer"
+short_title: "Frogger"
+content_meta: "This is a remake of the classic arcade game Frogger, using Javascript and HTML5 Canvas."
 image_url: "images/frogger.png"
 page_url: "/projects/frogger"
 description: "A remake of the classic arcade game"

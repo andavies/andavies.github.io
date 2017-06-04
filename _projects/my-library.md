@@ -1,5 +1,7 @@
 ---
-title: "My Library"
+title: "My Library | A PHP application by Andy Davies, Web Developer"
+short_title: "My Library"
+content_meta: "MyLibrary is a web application that allows you to share your book collection with others in your local community."
 image_url: "images/myLibrary.png"
 page_url: "/projects/my-library"
 description: "Web application that allows you to share your book collection"

@@ -1,6 +1,8 @@
 ---
-title: About Me
+title: About Me | Andy Davies
+short_title: About me
 layout: page
+content_meta: "Andy Davies: a web and software developer from Merseyside, UK. I'm available as a freelancer for hire and I make websites for small businesses."
 ---
 
 I live in Wirral in the UK (or "on the Wirral" as the locals tend to say). This site is a place for me to show my work and let people know what I can do. I also like to write on a range of subjects: sometimes technical posts that help me to better understand a subject myself, sometimes information that helps my customers better understand what I do, and occasionally posts of more general interest.
