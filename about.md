@@ -9,11 +9,11 @@ I live in Wirral in the UK (or "on the Wirral" as the locals tend to say). This 
 
 ### If you're a small business owner..
 
-I can make you a fast, modern, responsive website for your business at a competitive price. [Contact me]({{ site.url }}/contact.html) and we can discuss your project with no obligation.
+I can make you a fast, modern, responsive website for your business at a competitive price. [Contact me]({{ site.url }}{% link contact.md %}) and we can discuss your project with no obligation.
 
 ### If you're looking for a freelance programmer for your next project..
 
-Take a look at my [work]({{ site.url }}/projects.html), my [Github](https://github.com/andavies) and [StackOverflow](http://stackoverflow.com/users/story/5794667) profiles, and if you like what you see [contact me]({{ site.url }}/contact.html).
+Take a look at my [work]({{ site.url }}{% link projects.html %}), my [Github](https://github.com/andavies) and [StackOverflow](http://stackoverflow.com/users/story/5794667) profiles, and if you like what you see [contact me]({{ site.url }}{% link contact.md %}).
 
 ### If you're looking to hire a developer for your company..
 
