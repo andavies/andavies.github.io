@@ -3,6 +3,8 @@ name: Andy Davies | Web Developer
 collections:
   projects:
     output: true
+    permalink: /:collection/:name
+
 
 gems:
   - jekyll-gist
@@ -12,3 +14,5 @@ sass:
   style: compressed
   
 exclude: ["gulpfile.js"]
+
+permalink: /blog/:title/
