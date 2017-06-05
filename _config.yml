@@ -8,6 +8,7 @@ collections:
 
 gems:
   - jekyll-gist
+  - jekyll-redirect-from
 
 sass:
   sass_dir: _gulp-generated-files/_sass
