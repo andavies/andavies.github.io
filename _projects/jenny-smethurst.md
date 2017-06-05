@@ -19,5 +19,5 @@ I made the website, as well as taking care of the domain name purchase (the webs
 
 You can see the site [here](http://jennysmethurst.com). [Ed: this was made a few years back now. If I were making the same site today, it would be a [simple static site]({{ site.baseurl }}{% post_url 2017-05-15-on-jekyll-wordpress-and-speed %}).] 
 
-If you're self-employed or a business owner who needs a quality website at a reasonable price, with no waffle or jargon, [contact me]({{ site.baseurl }}/contact.html) for a no-obligation chat.
+If you're self-employed or a business owner who needs a quality website at a reasonable price, with no waffle or jargon, [contact me]({{ site.baseurl }}{% link contact.md %}) for a no-obligation chat.
 
