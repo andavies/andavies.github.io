@@ -3,6 +3,9 @@ title: Contact | Andy Davies
 short_title: Contact Me
 layout: page
 content_meta: "If you're looking for a freelance web developer for your next project, or a website for your business, contact me for a free consultation and quote."
+
+redirect_from:
+    - /contact.html
 ---
 
 <p style="text-align: center">Contact me using the form below and I'll get back to you as soon as possible. Alternatively, you can email me at <a href="mailto:hello@andydavi.es">hello@andydavi.es</a></p>
