@@ -23,7 +23,7 @@ It goes without saying that the site is responsive (the layout dynamically chang
 
 One of the features of my approach to programming generally, is that I don't want any code in there that isn't being used. I like things as lightweight as possible and I like to know exactly how things work. That isn't to say that I re-invent the wheel every time - one of the principles of programming is code re-use and abstraction - but I don't want to import 1000 lines of a library when I only need 10 of them. I therefore hardly ever use jQuery. Perhaps if you have a huge site with loads of Javascript it may make sense to use jQuery, but I certainly don't need it on this site. I have 30 lines of Javascript (un-minified) on this site.
 
-[Let me know](https://twitter.com) what you think of the site: what you like or what you think can be improved. See how [Google rates the speed of the site](https://developers.google.com/speed/pagespeed/insights/), and compare it to other sites you like. I've published the site as an early version that I intend to keep improving, so it will hopefully get faster and faster as time goes on. 
+[Let me know](https://twitter.com/1andydavies1) what you think of the site: what you like or what you think can be improved. See how [Google rates the speed of the site](https://developers.google.com/speed/pagespeed/insights/), and compare it to other sites you like. I've published the site as an early version that I intend to keep improving, so it will hopefully get faster and faster as time goes on. 
 
-If you're a business owner who wants a similarly fast and modern site, [contact me]({{ site.url }}/contact.html) for a free, no-obligation consultation.
+If you're a business owner who wants a similarly fast and modern site, [contact me]({{ site.url }}{% link contact.md %}) for a free, no-obligation consultation.
 

@@ -1,6 +1,9 @@
 ---
 title: Websites for Startup Businesses | Andy Davies
 layout: landing-page
+
+redirect_from:
+    - /websites.html
 ---
 
 <section class="landing-page">	
@@ -9,7 +12,7 @@ layout: landing-page
 		<div>
 			<h1>I make websites</h1>
 			<div>
-				<img src="images/profile-240x240.jpg" alt="Andy Davies">
+				<img src="{{ site.url }}/images/profile-240x240.jpg" alt="Andy Davies">
 			</div>	
 			<div class="buttons-wrapper">
 				<a href="#anchor-1" class="button">find out more</a>
@@ -98,7 +101,7 @@ layout: landing-page
 			<form class="contact-form" method="POST" action="https://formspree.io/hello@andydavi.es">
 				<input type="email" name="email" placeholder="Your email">
 				<input type="tel" name="telephone" placeholder="Your phone number (optional)">
-				<input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
+				<input type="hidden" name="_next" value="{{ site.url }}/thanks/" />
 				<textarea name="message" placeholder="Your message"></textarea>
 
 				<!--http://stackoverflow.com/questions/35464067/flexbox-not-working-on-button-element-in-some-browsers/35466231 -->

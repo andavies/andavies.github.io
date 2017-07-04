@@ -8,6 +8,9 @@ small_image_url: "images/js-logo.svg"
 large_image_url: "images/js-logo.svg"
 featured: true
 featured_image_url: "images/js-logo-500x400.png"
+
+redirect_from:
+    - /2016/11/13/scopes-and-closures.html
 ---
 
 There is more than one meaning of the word 'scope' when it comes to programming. 

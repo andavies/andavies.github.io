@@ -9,6 +9,9 @@ small_image_url: "images/money-small.jpg"
 large_image_url: "images/money-large.jpg"
 featured: true
 featured_image_url: "images/money-500x400.jpg"
+
+redirect_from:
+    - /2016/12/12/how-much-does-a-website-cost.html
 ---
 
 
@@ -26,4 +29,4 @@ Don’t pay for the number of hours spent making your site. This may work in the
 
 I’m not saying that you shouldn’t use an agency – a lot of them are very good, and if you want a site with advanced features or highly customised functions then you probably should go with them. But if your business isn’t the next facebook.com, don’t be tricked into paying over the odds.
 
-I don’t charge by the hour and you’ll always know exactly what you’re paying - letting you budget accordingly and get back to running your business. If you’re not sure where on the spectrum your website falls, [contact me for a chat]({{ site.baseurl }}/contact.html). If you need a site that would take a team of developers months to make, I’ll happily direct you to some great design agencies, but you’d be surprised at what can be done for a reasonable price and just how good it can look.
+I don’t charge by the hour and you’ll always know exactly what you’re paying - letting you budget accordingly and get back to running your business. If you’re not sure where on the spectrum your website falls, [contact me for a chat]({{ site.baseurl }}{% link contact.md %}). If you need a site that would take a team of developers months to make, I’ll happily direct you to some great design agencies, but you’d be surprised at what can be done for a reasonable price and just how good it can look.
