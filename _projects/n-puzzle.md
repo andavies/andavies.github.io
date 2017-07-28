@@ -9,6 +9,7 @@ tags: ["Python", "AI"]
 layout: project
 featured: true
 type: "programming"
+index_order: 3
 ---
 
 

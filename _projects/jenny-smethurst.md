@@ -11,6 +11,7 @@ featured: true
 feature_order: 4
 date: 2 November 2015
 type: "website"
+index_order: 8
 ---
 
 Jenny, like many self-employed people, needed a simple website to advertise her business.

@@ -10,6 +10,7 @@ layout: project
 featured: true
 date: 1 February 2016
 type: "programming"
+index_order: 2
 ---
 
 [Play the game here](https://andavies.github.io/frogger/)

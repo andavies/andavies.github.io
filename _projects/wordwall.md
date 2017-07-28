@@ -11,6 +11,7 @@ featured: true
 feature_order: 2
 date: 15 September 2016
 type: "website"
+index_order: 5
 ---
 
 [Wordwall](https://wordwall.co.uk) is a web application made by Visual Education Ltd that allows teachers to create interactive resources for use in the classroom.
