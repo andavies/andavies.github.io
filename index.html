@@ -31,10 +31,6 @@ content_meta: "Andy Davies is a software developer from Wirral, Merseyside in No
 				<h3 class="tab-heading">Programming</h3>
 			</li>
 
-			<li class="tab" data-reference="featured-websites">
-				<h3 class="tab-heading">Websites</h3>
-			</li>
-
 			<li class="tab" data-reference="featured-writing">
 				<h3 class="tab-heading">Writing</h3>
 			</li>
@@ -46,7 +42,7 @@ content_meta: "Andy Davies is a software developer from Wirral, Merseyside in No
 
 		{% for project in site.projects %}
 
-			{% if project.featured == true and project.type == 'programming' %}
+			{% if project.featured == true %}
 
 				<a href="{{ project.page_url }}">
 					<div class="tile">
@@ -67,33 +63,7 @@ content_meta: "Andy Davies is a software developer from Wirral, Merseyside in No
 	
 	</div>	
 
-	<div id="featured-websites" class="featured-grid hidden">
-
-		{% assign projects = site.projects | sort: 'feature_order' %}
-
-		{% for project in projects %}
-
-			{% if project.featured == true and project.type == 'website' %}
-
-				<a href="{{ project.page_url }}">
-					<div class="tile">
-
-						<div class="tile-info">
-							<h4 class="tile-title">{{ project.short_title }}</h4>
-							<span class="tile-description">{{ project.description }}</span>
-						</div>
-
-						<img src="{{ project.image_url }}" alt="website image">
-
-					</div>
-				</a>
-
-			{% endif %}
-
-		{% endfor %}
 	
-	</div>
-
 	<div id="featured-writing" class="featured-grid hidden">
 
 		{% for post in site.posts %}
