@@ -39,8 +39,12 @@ layout: master
 		{{ content }}
 	</div>
 
+	<section>
+		{% if page.comments %}
+			{% include disqus.html %}
+		{% endif %}
+	</section>
+
 </article>
 
-{% if page.comments %}
-	{% include disqus.html %}
-{% endif %}
+
