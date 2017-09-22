@@ -1,5 +1,6 @@
 ---
 layout: master
+comments: true
 ---
 
 <article>
@@ -40,3 +41,7 @@ layout: master
 	</div>
 
 </article>
+
+{% if page.comments %}
+	{% include disqus.html %}
+{% endif %}
