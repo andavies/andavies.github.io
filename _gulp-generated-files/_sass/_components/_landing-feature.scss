@@ -2,17 +2,23 @@
 	text-align: center;
 
 	// http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
-	background-image: url($url + '/images/sea.jpg');
+
+	/*background-image: url($url + '/images/sea.jpg');
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;*/
+
+	background-color: $highlight_color;
+
 	padding: 120px 0 60px 0;
+
+
 }
 
 @media screen and (max-width: 1024px) {
 	.landing-feature {
 		background-image: none;
-		background-color: $muted_text_color;
+		background-color: $highlight_color;
 	}
 }
 
