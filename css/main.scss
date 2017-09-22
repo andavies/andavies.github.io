@@ -28,6 +28,7 @@ $url: "{{ site.baseurl }}";
 @import '_components/nav';
 @import '_components/tap-targets';
 @import '_components/form';
+@import '_components/comments';
 
 @import '_layout/header';
 @import '_layout/featured-post';
