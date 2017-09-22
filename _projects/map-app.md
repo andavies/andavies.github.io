@@ -8,7 +8,6 @@ description: "Interactive map showing police stop-search data"
 tags: ["JavaScript", "Google Maps"]
 layout: project
 featured: true
-type: "programming"
 index_order: 1
 ---
 

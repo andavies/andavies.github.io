@@ -1,7 +1,7 @@
 ---
 title: Andy Davies | Software Developer from Merseyside, UK
 layout: master
-content_meta: "Andy Davies is a web developer and software developer from Wirral, Merseyside in North West UK. This is Andy's website, portfolio and blog."
+content_meta: "Andy Davies is a software developer from Wirral, Merseyside in North West UK. This is Andy's website, portfolio and blog."
 ---
 
 
@@ -12,7 +12,7 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 		<h1>
 			<span class="name">Andy Davies </span> 
 			<br>
-			<span class="job-title">Web Developer</span>
+			<span class="job-title">Software Developer</span>
 		</h1>
 
 	</div>
@@ -31,10 +31,6 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 				<h3 class="tab-heading">Programming</h3>
 			</li>
 
-			<li class="tab" data-reference="featured-websites">
-				<h3 class="tab-heading">Websites</h3>
-			</li>
-
 			<li class="tab" data-reference="featured-writing">
 				<h3 class="tab-heading">Writing</h3>
 			</li>
@@ -46,7 +42,7 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 
 		{% for project in site.projects %}
 
-			{% if project.featured == true and project.type == 'programming' %}
+			{% if project.featured == true %}
 
 				<a href="{{ project.page_url }}">
 					<div class="tile">
@@ -67,33 +63,7 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 	
 	</div>	
 
-	<div id="featured-websites" class="featured-grid hidden">
-
-		{% assign projects = site.projects | sort: 'feature_order' %}
-
-		{% for project in projects %}
-
-			{% if project.featured == true and project.type == 'website' %}
-
-				<a href="{{ project.page_url }}">
-					<div class="tile">
-
-						<div class="tile-info">
-							<h4 class="tile-title">{{ project.short_title }}</h4>
-							<span class="tile-description">{{ project.description }}</span>
-						</div>
-
-						<img src="{{ project.image_url }}" alt="website image">
-
-					</div>
-				</a>
-
-			{% endif %}
-
-		{% endfor %}
 	
-	</div>
-
 	<div id="featured-writing" class="featured-grid hidden">
 
 		{% for post in site.posts %}
@@ -154,7 +124,7 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 		<h2 class="about-me-heading">About me</h2>
 
 		<p>
-			I'm a software/web developer from Wirral in the UK. 
+			I'm a software developer from Wirral in the UK. I currently work for Unilever.
 		</p>
 
 		<p>
@@ -164,11 +134,6 @@ content_meta: "Andy Davies is a web developer and software developer from Wirral
 		<p>
 			I'm <a href="https://github.com/andavies/andavies.github.io">decent with HTML and CSS</a>, but what I really enjoy is solving programming problems, whether that's on the front end or back end of a stack. I like to learn not just how to program, but also what's going on behind the scenes; my self-learning has included courses in <a href="https://github.com/andavies/CS50">data structures, algorithms, and low-level programming in C</a>.
 		</p>
-
-		<p>
-			[Edit: July 2017] I'm currently looking for a job in the Merseyside or Chester areas. If you like the look of my work, get in touch.
-		</p>
-
 		
 
 		<div class="buttons-wrapper">

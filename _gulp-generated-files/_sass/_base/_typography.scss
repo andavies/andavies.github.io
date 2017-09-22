@@ -39,12 +39,13 @@ a {
 }
 
 .name {
-	@include small-caps-label(white);
+	@include small-caps-label(black);
 	@include antialiase;
 }
 
 .job-title {
 	@include blue-caps-title;
+	color: white; /* overrides the color in mixin above. Mixin needs refactoring for variable color */
 	@include antialiase;
 }
 

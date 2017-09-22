@@ -7,8 +7,7 @@ page_url: "/projects/my-library"
 description: "Web application that allows you to share your book collection"
 tags: ["PHP", "SQL", "HTML", "CSS"]
 layout: project
-featured: true
-type: "programming"
+featured: false
 index_order: 4
 ---
 
