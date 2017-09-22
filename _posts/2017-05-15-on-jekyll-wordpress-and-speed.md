@@ -10,6 +10,7 @@ large_image_url: "images/tools-640x426.jpg"
 featured: true
 featured_image_url: "images/jekyll-logo-500x400.png"
 latest_post_image_url: "images/jekyll-logo-200x160.png"
+comments: true
 
 redirect_from:
     - /2017/05/15/on-jekyll-wordpress-and-speed.html
