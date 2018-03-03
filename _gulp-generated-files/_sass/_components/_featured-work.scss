@@ -23,12 +23,11 @@
 		margin: 0;
 		padding: 15px 15px 15px 0;
 		color: $muted_text_color;
-	}
+	}	
 
 	ul {
-		list-style: none;
-		padding-left: 0;
-	}		
+		display: none;
+	}
 }
 
 
@@ -46,7 +45,9 @@
 			display: -ms-flexbox;
 			display: flex;
 			-ms-flex-pack: distribute;
-			    justify-content: space-around;			
+			    justify-content: space-around;				
+			list-style: none;
+		    padding-left: 0;		
 		}
 	}
 
@@ -92,6 +93,8 @@
 		ul {
 			display: block;
 		}
+
+
 	}
 
 	.tab {
