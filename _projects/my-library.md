@@ -17,4 +17,6 @@ MyLibrary is a web application that allows you to share your book collection wit
 
 The site is written in PHP and uses an SQL database to store user and book information. The only information the user needs to enter is the book's ISBN number, and the Google Books API does the rest.
 
-If you like the project, or if you've also taken [CS50](https://cs50.harvard.edu/), [talk to me on Twitter](https://twitter.com/1andydavies1).
+You can see the project [here](http://ec2-3-10-204-97.eu-west-2.compute.amazonaws.com:8080/public/). If you like the project, or if you've also taken [CS50](https://cs50.harvard.edu/), [talk to me on Twitter](https://twitter.com/1andydavies1).
+
+(Update Feb 2020: I'm bringing MyLibrary into the 21st Century [here]({{ site.baseurl }}{% link _projects/neverending-project.md %}))
