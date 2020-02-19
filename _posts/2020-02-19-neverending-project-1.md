@@ -12,9 +12,9 @@ latest_post_image_url: "images/prototype-500x400.png"
 comments: true
 ---
 
-There are many ways of starting a new software project. One way is to gather detailed requirements from the customer, draw up a series of features, sketch out an architecture and plan a schedule. All this is important, and too often overlooked in the name of (I am a fan of Agile), however before all that I think there’s an even more important thing to do: making a prototype.
+There are many ways of starting a new software project. One way is to gather detailed requirements from the customer, draw up a series of features, sketch out an architecture and plan a schedule. All this is important, and too often overlooked in the name of Agile (I am a fan of Agile), however before all that I think there’s an even more important thing to do: making a prototype.
 
-Before I go on I should say that you should read [Part 0]{% link _projects/neverending-project.md %}) if you haven't already to explain what this project is about.
+Before I go on I should say that you should read [Part 0]({% link _projects/neverending-project.md %}) if you haven't already to explain what this project is about.
 
 People probably have their own definition of a prototype. My definition is this: the simplest possible version of the product that demonstrates how the customer’s problem is solved by the idea. This is different to an MVP or Minimum Viable Product. The prototype will be so simple that won’t necessarily be “viable” to release to actual users. It may have bugs, it may look terrible, it may not be fully functioning. But what it must do is demonstrate the basic idea to the customer. 
 
