@@ -31,19 +31,19 @@ For the framework, I’ll be using [Express.js](https://expressjs.com/). The thi
 Getting started with Express is as simple as creating a project folder, then:
 
 {% highlight shell %}
-npm init
-npm install express –save
+ npm init
+ npm install express –save
 {% endhighlight %}
 
 From there all you need is an app.js file (I decided to call it index.js but it doesn’t really matter) with:
 
 {% highlight javascript %}
-const express = require('express')
-const app = express()
-const port = 3000
+ const express = require('express')
+ const app = express()
+ const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
-app.listen(port, () => console.log(`App listening on port ${port}!`))
+ app.get('/', (req, res) => res.send('Hello World!'))
+ app.listen(port, () => console.log(`App listening on port ${port}!`))
 {% endhighlight %}
 
 That’s it. You’re up and running with a web application on port 3000. From there it’s easy to define your endpoints and serve different pages. I won’t go through all of that but you can see what I’ve done [here](https://github.com/andavies/the-manhattan-project/tree/prototype).
@@ -86,7 +86,7 @@ Next we'll assign a public IP address to the instance. In the EC2 console select
 Now we need to copy our project files from our local machine to the instance. First, delete the node_modules folder, as there will be a lot in there and we can just download them again faster than we can upload. This isn't an ideal way to deploy an application for real - we'll be setting up continuous deployment at some point, and hopefully provisioning our resources with Cloudformation or Terraform, but this will do for now. Use this command to upload the files:
 
 {% highlight shell %}
-scp -r -i [path-to-pem-file] [main project folder] ec2-user@[ip address]:/home/ec2-user/my-library
+ scp -r -i [path-to-pem-file] [main project folder] ec2-user@[ip address]:/home/ec2-user/my-library
 {% endhighlight %}
 
 Then we can SSH into the instance and check that the files are there:
