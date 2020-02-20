@@ -37,14 +37,14 @@ npm install express –save
 
 From there all you need is an app.js file (I decided to call it index.js but it doesn’t really matter) with:
 
-```javascript
+{% highlight javascript %}
 const express = require('express')
 const app = express()
 const port = 3000
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(port, () => console.log(`App listening on port ${port}!`))
-```
+{% endhighlight %}
 
 That’s it. You’re up and running with a web application on port 3000. From there it’s easy to define your endpoints and serve different pages. I won’t go through all of that but you can see what I’ve done [here](https://github.com/andavies/the-manhattan-project/tree/prototype).
 
