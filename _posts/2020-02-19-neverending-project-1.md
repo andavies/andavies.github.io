@@ -30,10 +30,10 @@ For the framework, I’ll be using [Express.js](https://expressjs.com/). The thi
 
 Getting started with Express is as simple as creating a project folder, then:
 
-```
+{% highlight shell %}
 npm init
 npm install express –save
-```
+{% endhighlight %}
 
 From there all you need is an app.js file (I decided to call it index.js but it doesn’t really matter) with:
 
@@ -85,15 +85,15 @@ Next we'll assign a public IP address to the instance. In the EC2 console select
 
 Now we need to copy our project files from our local machine to the instance. First, delete the node_modules folder, as there will be a lot in there and we can just download them again faster than we can upload. This isn't an ideal way to deploy an application for real - we'll be setting up continuous deployment at some point, and hopefully provisioning our resources with Cloudformation or Terraform, but this will do for now. Use this command to upload the files:
 
-```
+{% highlight shell %}
 scp -r -i [path-to-pem-file] [main project folder] ec2-user@[ip address]:/home/ec2-user/my-library
-```
+{% endhighlight %}
 
 Then we can SSH into the instance and check that the files are there:
 
-```
+{% highlight shell %}
  ssh -i <pem> ec2-user@<ip>
-```
+{% endhighlight %}
 
 We then need to get our node modules back with `npm init`, and run the application with `npm start`. Then, if we navigate to our public IP address in the browser, we should see our prototype up and running, ready to use. 
 
