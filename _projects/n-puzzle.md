@@ -1,5 +1,6 @@
 ---
 title: "n-puzzle | An artifical intelligence program in Python by Andy Davies"
+date: 2 June 2016
 short_title: "n-puzzle"
 content_meta: "A program written in Python that solves any given n-puzzle."
 image_url: "images/westworld.png"

@@ -1,5 +1,6 @@
 ---
 title: "My Library | A PHP application by Andy Davies, Software Developer"
+date: 12 December 2015
 short_title: "My Library"
 content_meta: "MyLibrary is a web application that allows you to share your book collection with others in your local community."
 image_url: "images/myLibrary.png"

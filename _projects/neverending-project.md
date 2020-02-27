@@ -1,5 +1,6 @@
 ---
 title: "The Neverending Project"
+date: 12 February 2020
 short_title: "The Neverending Project"
 content_meta: "A project used to demonstrate software development practises"
 image_url: "images/falcor-500x400.jpg"
