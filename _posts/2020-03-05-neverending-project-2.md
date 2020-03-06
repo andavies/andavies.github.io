@@ -64,7 +64,7 @@ A Continuous Delivery pipeline defines a series of steps that determines how you
 
 ## Build
 
-After setting up the ‘source’ of the pipeline and the ‘trigger’ – in our case the source is the master branch in our GitHib repository and the trigger is any change to that (detected using GitHub webhooks) – the next step is the build.
+After setting up the ‘source’ of the pipeline and the ‘trigger’ – in our case the source is the master branch in our GitHub repository and the trigger is any change to that (detected using GitHub webhooks) – the next step is the build.
 
 In a Java application the build would involve compiling the source and dependencies and packaging it into an ‘artefact’ – in Java’s case a jar file. Since we’re using NodeJS, and Javascript is an interpreted language, the build step isn’t as involved as that and should be quicker. We just need to install dependencies, pull in the .env file from S3 (these aren’t stored in the repository for security reasons), create an artefact in the form of a zip file, and store that artefact in S3. 
 
