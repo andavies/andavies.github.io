@@ -36,7 +36,7 @@ Then I’ll create a new EC2 (Elastic Compute Cloud) instance, this time with an
 
 Unfortunately, when using CodeDeploy you must install the “CodeDeploy Agent” on your EC2 instance – it’s not on there by default. We can add a script to do this in the User Data section of the EC2 instance in the console:
 
-```shell
+{% highlight shell %}
  #!/bin/bash -xe
 
  sudo apt-get update
@@ -49,7 +49,7 @@ Unfortunately, when using CodeDeploy you must install the “CodeDeploy Agent”
  sudo chmod +x ./install
  sudo ./install auto
  sudo service codedeploy-agent start
- ```
+{% endhighlight %}
 
 When the EC2 instance first starts, this script will be executed and the agent will be installed. 
 
@@ -72,7 +72,7 @@ I find that “Ops” work can often be a case of trial and error. It’s common
 
 The build phase is defined in the buildspec.yml file:
 
-```yaml
+{% highlight yaml %}
  version: 0.2
 
  phases:
@@ -84,8 +84,7 @@ The build phase is defined in the buildspec.yml file:
    files:
      - '**/*'
    name: my-library-$(date +%Y-%m-%d-%H:%M:%S).zip
-
-```
+{% endhighlight %}
 
 Codebuild has a free tier that gives you 100 build minutes per month. That should be more than enough for my purposes, but if I go over it’s $0.005 per minute. 
 
@@ -99,7 +98,7 @@ S3 storage costs $0.023 per GB. My builds are about 30KB, so I’ll be barely pa
 
 AWS CodeDeploy uses a series of scripts that execute at defined points in the deployment. They are referenced in the appspec.yml file:
 
-```yaml
+{% highlight yaml %}
  version: 0.0
  os: linux
  files:
@@ -123,34 +122,34 @@ AWS CodeDeploy uses a series of scripts that execute at defined points in the de
      - location: scripts/start_server.sh
        timeout: 300
        runas: ubuntu
-```
+{% endhighlight %}
 
 First, we stop the server with the stop_server.sh script. I’m using the npm module ‘forever’ to start and stop the application:
 
-```shell
+{% highlight shell %}
  export PATH=$PATH:/opt/bitnami/nodejs/bin/
  forever stopall || true  # true stops script exit code 1 (will stop deploy process) if no servers to stop
-```
+{% endhighlight %}
 
 This will mean downtime for the app. For now, and certainly for the dev environment, this is fine. Eventually we might set up [blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) for prod to achieve zero downtime. Once the files have been transferred to the instance, the after_install.sh script runs:
 
-```shell
+{% highlight shell %}
  export PATH=$PATH:/opt/bitnami/nodejs/bin/:/opt/bitnami/mongodb/bin/
 
  cd ~/app
  npm install
-```
+{% endhighlight %}
 
 Finally, we start the database and the application with:
 
-```shell
+{% highlight shell %}
  export PATH=$PATH:/opt/bitnami/nodejs/bin/:/opt/bitnami/mongodb/bin/
 
  cd ~/app
  sudo mongod --noauth --fork --logpath /var/log/mongod.log --logappend --dbpath /opt/bitnami/mongodb/data/db
  sudo npm install forever -g
  forever start src/index.js
-```
+{% endhighlight %}
 
 This database setup is far from ideal. Before we get this into production we’ll be splitting the database out into its own service, with either RDS or DynamoDB, but this will do for the dev environment.
 
@@ -160,16 +159,16 @@ CodeDeploy is free to use when deploying to AWS services.
 
 Let’s test that it all works. I’ll add this line to the login page:
 
-```html
+{% highlight html %}
  <p>A site to share your book collection</p>
-```
+{% endhighlight %}
 
 Commit and push:
 
-```shell
+{% highlight shell %}
  git commit -am "Add subtitle to login page - testing CD"
  git push origin testing-cd
-```
+{% endhighlight %}
 
 Then I’ll create a pull request in GitHub and merge to master. If I then go to the CodePipeline console I can see that the pipeline has been triggered:
 
