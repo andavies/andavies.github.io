@@ -32,6 +32,7 @@ $url: "{{ site.baseurl }}";
 @import '_components/tap-targets';
 @import '_components/form';
 @import '_components/comments';
+@import '_components/post-image';
 
 @import '_layout/header';
 @import '_layout/featured-post';
