@@ -97,4 +97,6 @@ Then we can SSH into the instance and check that the files are there:
 
 We then need to get our node modules back with `npm init`, and run the application with `npm start`. Then, if we navigate to our public IP address in the browser, we should see our prototype up and running, ready to use. 
 
-You can check out my prototype [here](http://ec2-35-176-179-41.eu-west-2.compute.amazonaws.com:3000) - let me know what you think in the comments below. The next step will probably be setting up continuous deployment, but that may change. In any case, follow me on [Twitter](https://twitter.com/1andydavies1) and I'll let you know when Part 2 is up. 
+You can check out my prototype [here](http://ec2-35-176-179-41.eu-west-2.compute.amazonaws.com:3000) - let me know what you think in the comments below. 
+
+Next: [Part 2: Continuous Deployment]({% post_url 2020-03-05-neverending-project-2 %}).
