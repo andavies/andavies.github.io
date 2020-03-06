@@ -180,4 +180,6 @@ A few seconds later I see that the deployment has been successful, and if I go t
 
 We’re now ready to develop features without having to worry about deployments. Once we’ve added tests, and we’re ready to deploy the first version to production, I’ll set up another pipeline to run the tests and deploy to prod. 
 
-You can have a look at the repository [here](https://github.com/andavies/the-manhattan-project), and the dev site [here](http://ec2-35-179-30-212.eu-west-2.compute.amazonaws.com:3000). In the next post, I’ll be using CloudFormation to provision our infrastructure automagically.
+You can have a look at the repository [here](https://github.com/andavies/the-manhattan-project), and the dev site [here](http://ec2-35-179-30-212.eu-west-2.compute.amazonaws.com:3000). 
+
+Next: [Part 3: Infrastructure as Code]({% post_url 2020-03-06-neverending-project-3 %}).
