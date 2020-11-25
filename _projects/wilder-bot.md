@@ -14,7 +14,7 @@ index_order: 3
 
 Back in January 2020, when we lived in simpler times, I made a bet with a friend that the Sheffield United manager Chris Wilder would be sacked within a year. Long story short, he was doing well at the time, I thought it was a flavour-of-the-month thing, my friend disagreed, and we had a bet for a bit of fun. Fast-forward 10 months and Sheffield United are bottom of the league without a win and the bet is looking good. 
 
-Because I'm childish, I've recently been sending said friend updates on the current odds on Wilder being the next manager sacked - cue LOLs all around. This morning I had another childish idea: what if I wrote a program that automatically sent him the odds every morning and how long the bet had left? 
+Because I'm childish, I've recently winding my friend up by sending him the current betting odds on Wilder being the next manager sacked - cue LOLs all around. This morning I had another childish idea: what if I wrote a program that automatically sent him the odds every morning and how long the bet had left? 
 
 First, I needed an API that gives me the odds. A bit of Googling led me to the Betfair Exchange API, which is fortunately free. Once I registered for an application key I was able to log into a session:
 
