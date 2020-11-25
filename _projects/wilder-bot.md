@@ -4,7 +4,7 @@ short_title: "Chris Wilder Bot"
 content_meta: "A mini practical joke"
 image_url: "images/rsz_chris-wilder.jpg"
 page_url: "/projects/wilder-bot"
-description: "A 'bot' that texts my friend with the odds on Chris Wilder being sacked"
+description: "A 'bot' that texts my friend with the odds of Chris Wilder being sacked"
 tags: ["Microservices", "AWS"]
 layout: project
 featured: true
@@ -41,7 +41,7 @@ def lambda_handler(event, context):
     betfairPw = json.loads(get_secret())['betfairPw']  # store pw in Secrets Manager
     url = "https://identitysso.betfair.com/api/login"
     headers = { 'X-Application' : APIKEY, 'Accept' : 'application/json' ,'Content-Type' : 'application/x-www-form-urlencoded' }
-    body={"username": "andrewdavies84", "password": betfairPw}
+    body={"username": "MY_USERNAME", "password": betfairPw}
     response = requests.post(url, data=body, headers=headers)
     token = json.loads(response.text)["token"]
     
@@ -114,9 +114,11 @@ A quick test using my own phone number and I quickly receive the message:
 
 ![Phone Screenshot](/images/phone-screenshot.png "Phone screenshot")
 
-Lovely stuff. The only thing left is to get it to run automatically every morning, which we can do using Amazon EventBridge. Setting up a new rule is simple - you enter the CRON expression that you want ("0 5 * * ? *" in my case - he gets up early), specify the lambda function to execute, and you're all set. Just need to add my friends phone number to the Lambda code next to my own, and it's done.
+Lovely stuff. The only thing left is to get it to run automatically every morning, which we can do using Amazon EventBridge. Setting up a new rule is simple - you enter the CRON expression that you want ("0 5 * * ? *" in my case - he gets up early), specify the lambda function to execute, and you're all set. Just need to add my friend's phone number to the Lambda code next to my own, and it's done.
 
 Time taken: 2 hours
+
 Result: Guaranteed LOLs
+
 Cost: 20 cents for the first million Lambda executions, i.e. 1 million days - should be ok. 40 cents per month for storing the secret, and 4 cents per text message. Total cost for the two months it'll run: $5.80. Worth every penny.
 
