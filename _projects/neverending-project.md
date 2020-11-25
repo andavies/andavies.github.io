@@ -1,5 +1,6 @@
 ---
 title: "The Neverending Project"
+date: 12 February 2020
 short_title: "The Neverending Project"
 content_meta: "A project used to demonstrate software development practises"
 image_url: "images/falcor-500x400.jpg"
@@ -28,10 +29,10 @@ Before we start though, let’s get the old, original project up and running aga
 
 I’ll go over the process of setting up an EC2 instance later, when we get into the new project. For now, I’ve just created a t2-micro instance with 1GB of RAM, running Amazon Linux, at a cost of about 1p per hour. To make the deployment a bit simpler [I’ve used Docker](https://github.com/andavies/myLibrary/tree/dockerize) to house the application, webserver and database in one container. This way all I need to do is SSH into my instance and use the command `docker-compose up` to get everything running. In reality, you’d want to separate the different services – webserver, database, application – into separate containers, and you’d probably use ECS (Elastic Container Service), but I just want to get this up and running quickly to show what the old project was like. It also no doubt has security issues – this is just a demo app with no real data - I wouldn’t do it like this in production or with real user data.
 
-You can see the old project [here](http://ec2-3-10-204-97.eu-west-2.compute.amazonaws.com:8080/public/), and view the source code [here](https://github.com/andavies/myLibrary). Next up: making a prototype. 
+You can see the old project [here](http://ec2-3-10-204-97.eu-west-2.compute.amazonaws.com:8080/public/), and view the source code [here](https://github.com/andavies/myLibrary). 
 
 
-Next: Part 1: Prototype.
+Next: [Part 1: Prototype]({% post_url 2020-02-19-neverending-project-1 %}).
 
 
 

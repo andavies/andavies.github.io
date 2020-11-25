@@ -1,5 +1,6 @@
 ---
 title: "Map App | A Javascript program by Andy Davies, Software Developer"
+date: 15 March 2016
 short_title: "Map App"
 content_meta: "Map App integrates police stop-and-search data with the Google Maps API, to create an interactive map showing recent stop-searches in your area."
 image_url: "images/map.png"

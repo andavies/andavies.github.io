@@ -11,6 +11,8 @@ $url: "{{ site.baseurl }}";
 
 @import '_abstracts/colors';
 @import '_abstracts/mixins';
+@import '_abstracts/monokai';
+
 
 @import '_base/normalize';
 @import '_base/reset';
@@ -18,6 +20,7 @@ $url: "{{ site.baseurl }}";
 
 @import '_components/tile';
 @import '_components/featured-work';
+@import '_components/figure';
 @import '_components/landing-feature';
 @import '_components/button';
 @import '_components/page-title';
@@ -29,6 +32,7 @@ $url: "{{ site.baseurl }}";
 @import '_components/tap-targets';
 @import '_components/form';
 @import '_components/comments';
+@import '_components/post-image';
 
 @import '_layout/header';
 @import '_layout/featured-post';

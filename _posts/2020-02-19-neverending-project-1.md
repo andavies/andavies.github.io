@@ -30,21 +30,21 @@ For the framework, I’ll be using [Express.js](https://expressjs.com/). The thi
 
 Getting started with Express is as simple as creating a project folder, then:
 
-```
-npm init
-npm install express –save
-```
+{% highlight shell %}
+ npm init
+ npm install express –save
+{% endhighlight %}
 
 From there all you need is an app.js file (I decided to call it index.js but it doesn’t really matter) with:
 
-```javascript
-const express = require('express')
-const app = express()
-const port = 3000
+{% highlight javascript %}
+ const express = require('express')
+ const app = express()
+ const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
-app.listen(port, () => console.log(`App listening on port ${port}!`))
-```
+ app.get('/', (req, res) => res.send('Hello World!'))
+ app.listen(port, () => console.log(`App listening on port ${port}!`))
+{% endhighlight %}
 
 That’s it. You’re up and running with a web application on port 3000. From there it’s easy to define your endpoints and serve different pages. I won’t go through all of that but you can see what I’ve done [here](https://github.com/andavies/the-manhattan-project/tree/prototype).
 
@@ -85,16 +85,18 @@ Next we'll assign a public IP address to the instance. In the EC2 console select
 
 Now we need to copy our project files from our local machine to the instance. First, delete the node_modules folder, as there will be a lot in there and we can just download them again faster than we can upload. This isn't an ideal way to deploy an application for real - we'll be setting up continuous deployment at some point, and hopefully provisioning our resources with Cloudformation or Terraform, but this will do for now. Use this command to upload the files:
 
-```
-scp -r -i [path-to-pem-file] [main project folder] ec2-user@[ip address]:/home/ec2-user/my-library
-```
+{% highlight shell %}
+ scp -r -i [path-to-pem-file] [main project folder] ec2-user@[ip address]:/home/ec2-user/my-library
+{% endhighlight %}
 
 Then we can SSH into the instance and check that the files are there:
 
-```
+{% highlight shell %}
  ssh -i <pem> ec2-user@<ip>
-```
+{% endhighlight %}
 
 We then need to get our node modules back with `npm init`, and run the application with `npm start`. Then, if we navigate to our public IP address in the browser, we should see our prototype up and running, ready to use. 
 
-You can check out my prototype [here](http://ec2-35-176-179-41.eu-west-2.compute.amazonaws.com:3000) - let me know what you think in the comments below. The next step will probably be setting up continuous deployment, but that may change. In any case, follow me on [Twitter](https://twitter.com/1andydavies1) and I'll let you know when Part 2 is up. 
+You can check out my prototype ~~here~~ [I've since taken it down - I'm not made of money. See the dev site [here](http://ec2-35-179-30-212.eu-west-2.compute.amazonaws.com:3000) instead] - let me know what you think in the comments below. 
+
+Next: [Part 2: Continuous Deployment]({% post_url 2020-03-05-neverending-project-2 %}).
