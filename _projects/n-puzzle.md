@@ -14,8 +14,6 @@ index_order: 3
 
 This project is my first venture into the world of Artificial Intelligence. It is a program that solves any given [n-puzzle](http://mypuzzle.org/sliding). At some point I plan to make an interactive version for this site using HTML5 Canvas, but at the moment it's a command line program that you can clone from [GitHub](https://github.com/andavies/n-puzzle). This project is also the first thing I've made using Python.
 
-### Warning: non-technical readers may doze off from here
-
 The real goal of the project was to learn the fundamentals of AI, in particular to explore the efficiency of search algorithms in terms of time and space complexity. My companion for this project was the canonical text for AI: *Artificial Intelligence: A Modern Approach*, by Stuart Russell and Peter Norvig.
 
 Given any n-puzzle, there are at most four possibilities for the first move: sliding a tile up, down, left, or right. (If the empty 'tile' is at the edge of the grid not all options are possible.) The program navigates different paths through the 'search space' of possible moves until it reaches a point where the puzzle is complete (the grid is ordered). Once it reaches the goal state, it returns the path it took to reach it.

@@ -16,8 +16,6 @@ index_order: 2
 
 The arcade game Frogger was released in 1981, and has since become a videogame classic. It even made an [appearance on Seinfeld](https://www.youtube.com/watch?v=a-FbktgqCqY). This remake of Frogger was a project for [Udacity's Front End Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001). The game is programmed in Javascript and rendered using HTML5 Canvas. You can see the source code [here](https://github.com/andavies/frogger).
 
-### Warning: technical content!
-
 This project was my first practical introduction to object-oriented programmming. The course - taught by Hack Reactor's Marcus Phillips - introduces the concepts of scopes and closures, the keyword 'this', and prototype delegation.
 
 #### HTML5 canvas
