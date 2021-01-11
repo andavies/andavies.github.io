@@ -8,8 +8,9 @@ description: "A 'bot' that texts my friend with the odds of Chris Wilder being s
 tags: ["Microservices", "AWS"]
 layout: project
 featured: true
+feature_order: 2
 date: 25 November 2020
-index_order: 3
+index_order: 2
 ---
 
 Back in January 2020, when we lived in simpler times, I made a bet with a friend that the Sheffield United manager Chris Wilder would be sacked within a year. Long story short, he was doing well at the time, I thought it was a flavour-of-the-month thing, my friend disagreed, and we had a bet for a bit of fun. Fast-forward 10 months and Sheffield United are bottom of the league without a win and the bet is looking good. 

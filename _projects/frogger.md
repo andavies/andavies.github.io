@@ -7,9 +7,9 @@ page_url: "/projects/frogger"
 description: "A remake of the classic arcade game"
 tags: ["JavaScript", "HTML5 Canvas"]
 layout: project
-featured: true
+featured: false
 date: 1 February 2016
-index_order: 2
+index_order: 5
 ---
 
 [Play the game here](https://andavies.github.io/frogger/)

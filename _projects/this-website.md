@@ -8,9 +8,9 @@ description: "My personal website"
 tags: ["Jekyll"]
 layout: project
 featured: true
-feature_order: 3
+feature_order: 4
 date: 13 May 2017
-index_order: 5
+index_order: 4
 ---
 
 This entire website was written by me. There's no off-the-shelf theme, no Bootstrap, and no jQuery. I wanted it to be as lightweight and fast as possible, and I wanted to have complete control. I used the static site generator Jekyll to make the site, and you can read my [blog post on Jekyll]({{ site.baseurl }}{% post_url 2017-05-15-on-jekyll-wordpress-and-speed %}) if you want to know more.

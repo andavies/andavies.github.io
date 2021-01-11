@@ -9,7 +9,7 @@ description: "A program that solves any n-puzzle"
 tags: ["Python", "AI"]
 layout: project
 featured: false
-index_order: 3
+index_order: 7
 ---
 
 

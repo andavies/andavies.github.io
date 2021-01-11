@@ -9,7 +9,8 @@ description: "An ongoing project used to demonstrate software development techni
 tags: ["Javascript, AWS"]
 layout: project
 featured: true
-index_order: 1
+feature_order: 3
+index_order: 3
 ---
 
 
