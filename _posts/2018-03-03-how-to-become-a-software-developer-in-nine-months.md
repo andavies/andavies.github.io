@@ -51,7 +51,7 @@ If CS50 puts you ahead of most self-taught developers, this will put you ahead o
 
 ## Step 2 - Get social
 
-Open a Twitter account. If you already have a personal account that you use to rant about football and Brexit, open a seperate one; this is your professional profile and you’ll use it to connect with other developers and employers. You don’t have to be tweeting all the time - I’m not much of a tweeter myself - but start using it to make connections, explore the world of software development, and start to document your learning progress.
+Open a Twitter account. If you already have a personal account that you use to rant about football and Brexit, open a separate one; this is your professional profile and you’ll use it to connect with other developers and employers. You don’t have to be tweeting all the time - I’m not much of a tweeter myself - but start using it to make connections, explore the world of software development, and start to document your learning progress.
 
 Open a [StackOverflow](https://stackoverflow.com/) account, and start to get involved. When I landed my first job my boss said that just *having* an account put me ahead of the majority of applicants. Don’t get too hung up on trying to earn reputation points; it can be difficult as a newbie to earn your first points. Over the next few months you’ll naturally start to earn reputation. Think quality over quantity.
 
