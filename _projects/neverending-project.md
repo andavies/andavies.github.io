@@ -8,7 +8,7 @@ page_url: "/projects/neverending-project"
 description: "An ongoing project used to demonstrate software development techniques"
 tags: ["Javascript, AWS"]
 layout: project
-featured: true
+featured: false
 feature_order: 3
 index_order: 3
 ---
