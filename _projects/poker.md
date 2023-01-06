@@ -10,7 +10,7 @@ layout: project
 featured: true
 feature_order: 1
 date: 11 January 2021
-index_order: 1
+index_order: 3
 ---
 
 I was playing poker with friends online last summer as a way to do something together during the lockdown. I was surprised how difficult it was to find a good, free app where you could just play poker with your friends. They all seemed to have a catch - you play a few games for free but then you have to buy “tokens” or “gold” to play more. Even the apps from the main poker sites and casinos took “rake” or made you buy chips. I had imagined that there would be something like [lichess](https://lichess.org/) out there where you can just play - after all you only need a deck of cards and to know the rules - it can’t be that difficult to make. So I set about making a prototype of a free and simple multiplayer poker app. 
