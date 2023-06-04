@@ -17,3 +17,4 @@ This project is an example of what [hipsters](http://i.telegraph.co.uk/multimedi
 
 You can try it yourself [here](https://andavies.github.io/map-app/) and view the source code [here](https://github.com/andavies/map-app).
 
+**Edit 2023: If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**

@@ -25,3 +25,5 @@ One of the features of my approach to programming generally, is that I don't wan
 
 [Let me know](https://twitter.com/1andydavies1) what you think of the site: what you like or what you think can be improved. See how [Google rates the speed of the site](https://developers.google.com/speed/pagespeed/insights/), and compare it to other sites you like. I've published the site as an early version that I intend to keep improving, so it will hopefully get faster and faster as time goes on. 
 
+**Edit 2023: If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**
+

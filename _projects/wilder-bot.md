@@ -123,5 +123,5 @@ Result: Guaranteed LOLs
 
 Cost: 20 cents for the first million Lambda executions, i.e. 1 million days - should be ok. 40 cents per month for storing the secret, and 4 cents per text message. Total cost for the two months it'll run: $5.80. Worth every penny.
 
-If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)
+**If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**
 

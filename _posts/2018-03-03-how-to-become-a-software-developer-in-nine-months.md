@@ -109,4 +109,4 @@ It’s difficult to know what standard you need to be at when you’ve had no ex
 
 There’s a worldwide shortfall of programming skills, and even if (like me) your nearest city isn’t a ‘tech-hub’ , you’ll be surprised just how many software jobs there are out there and how few applicants. My current employer for instance recently advertised for a mid-level Java developer, and they simply couldn’t find one. If you happen to live in a city with lots of tech jobs, such as London or Manchester in the UK, you’ll have your pick of several high quality companies. 
 
-I plan to write a part two to this that deals with applying for jobs and preparing for the interview, but for now let me know in the comments if you’ve done something similar, or [connect with me on Twitter](https://twitter.com/1andydavies1/).
+**If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**

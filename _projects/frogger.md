@@ -40,3 +40,4 @@ In the example above, all Enemy objects now have access to the render method and
 
 [Try the game for yourself](https://andavies.github.io/frogger/) and see how high you can score. If you enjoyed it, [let me know](https://twitter.com/1andydavies1) on Twitter.
 
+**Edit 2023: If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**

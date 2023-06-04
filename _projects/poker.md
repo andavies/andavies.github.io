@@ -66,5 +66,6 @@ One good thing about not collecting any user data or even having user accounts i
 
 I finished the prototype in about 6 weeks over last summer, working on it one or two hours a day. If this was a proper project for a business I’d say it’d probably be a two to three week job. It’s hosted in Heroku on cheap infrastructure, so it has some latency issues now and again and it probably won’t handle many games at the same time. It has bugs - I didn’t have time to write tests so it definitely has bugs - but it’s a working prototype made in a few weeks, and that was the goal. 
 
-You can try it for yourself [here](https://homegamepkr.herokuapp.com/).
+
+**If you want to do what I did - learn to code and change your career - try my new course at [learn.andydavi.es](https://learn.andydavi.es)**
 
